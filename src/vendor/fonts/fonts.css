@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Red Hat Display";
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("RedHatDisplay-Regular.ttf") format("tff"),
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("RedHatDisplay-Medium.ttf") format("ttf"),
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("RedHatDisplay-Bold.ttf") format("ttf"),
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("RedHatDisplay-Black.ttf") format("ttf"),
+}

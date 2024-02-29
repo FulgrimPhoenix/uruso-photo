@@ -1,0 +1,13 @@
+.page{
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-family: "Red Hat Display", Arial, sans-serif;
+  max-width: 1280px;
+  background-image: url(../../images/introPhoto.png);
+  background-repeat: no-repeat;
+  background-size: 765px 750px;
+  background-position: top -50px right 0;
+  height: 600px;
+}
