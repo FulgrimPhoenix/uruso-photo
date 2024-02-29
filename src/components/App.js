@@ -1,11 +1,11 @@
 import { Header } from "./Header";
-import { Intro } from "./Intro";
+import { Main } from "./Main";
 
 function App() {
   return (
     <body className="page">
       <Header />
-      <Intro />
+      <Main />
     </body>
   );
 }

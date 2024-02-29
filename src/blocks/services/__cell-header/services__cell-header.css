@@ -1,0 +1,5 @@
+.services__cell-header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
