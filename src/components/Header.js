@@ -8,7 +8,7 @@ export function Header() {
         <ul className="header__menu-list">
           {constants.header.pageNavLinks.map((navLink) => {
             return (
-              <li className="header__menu-list-item">
+              <li key={navLink.title} className="header__menu-list-item">
                 <a className="header__menu-list-link" href={navLink.link}>{navLink.title}</a>
               </li>
             );

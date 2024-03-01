@@ -1,0 +1,8 @@
+.about-me{
+  margin: 60px auto;
+  padding: 0 165px 70px;
+  background: linear-gradient(
+  rgba(134, 67, 220, .15),
+  #fff );
+  border-radius: 100px;
+}

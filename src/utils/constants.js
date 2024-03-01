@@ -1,5 +1,8 @@
 import logo from "../images/logo.svg";
 import photoIcon from "../images/icons/photoIcon.svg"
+import vkIcon from "../images/icons/vkIcon.png"
+import telegramIcon from "../images/icons/telegaIcon.png"
+import aboutMePhoto from "../images/myPhoto.jpg"
 
 export const constants = {
   header: {
@@ -36,8 +39,7 @@ export const constants = {
   },
   service: {
     sectionTitle: "Услуги",
-    sectionSubtitle: `Я предоставляю широкий спектр 
-    услуг в области съемок`,
+    sectionSubtitle: `У меня вы можете заказать:`,
     cells: [
       {
         img: photoIcon,
@@ -67,4 +69,31 @@ export const constants = {
       },
     ],
   },
+  aboutMe: {
+    sectionTitle: "Обо мне",
+    title: "Андрей",
+    subtitle: "Ландшафтный фотограф, 33 года",
+    description: `Позвольте представиться. Я - фотограф с высшим образованием, 
+    родившийся и проживающий в городе Москве. С самого детства я увлекаюсь 
+    фотографией и компьютерными играми, находя в этих занятиях вдохновение 
+    для моего творчества. Моя страсть и стремление - запечатлеть красоту 
+    окружающего мира, поделиться его гармонией и неповторимостью. В 
+    работе я учитываю все пожелания заказчика, предлагаю индивидуальный подход 
+    и творческий взгляд на каждую задачу. Буду рад сотрудничеству и уверен, 
+    что мы сможем реализовать самые смелые идеи и проекты.`,
+    photo: aboutMePhoto,
+    navBarTitle: "Подписывайтесь на меня в соцсетях!",
+    navBar: [
+      {
+        title: "телеграмм",
+        icon: telegramIcon,
+        link: "https://t.me/uruso"
+      },
+      {
+        title: "вконтакте",
+        icon: vkIcon,
+        link: "https://vk.com/urusof"
+      },
+    ]
+  }
 };

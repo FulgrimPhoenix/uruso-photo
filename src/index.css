@@ -24,3 +24,17 @@
 @import url(./blocks/services/__cell-header/services__cell-header.css);
 @import url(./blocks/services/__description/services__description.css);
 @import url(./blocks/services/__cell-description/services__cell-description.css);
+
+@import url(./blocks/about-me/about-me.css);
+@import url(./blocks/about-me/__cells/about-me__cells.css);
+@import url(./blocks/about-me/__description/about-me__description.css);
+@import url(./blocks/about-me/__photo-cell/about-me__photo-cell.css);
+@import url(./blocks/about-me/__subtitle/about-me__subtitle.css);
+@import url(./blocks/about-me/__text-cells/about-me__text-cells.css);
+@import url(./blocks/about-me/__title/about-me__title.css);
+@import url(./blocks/about-me/__menu/about-me__menu.css);
+@import url(./blocks/about-me/__menu-title/about-me__menu-title.css);
+@import url(./blocks/about-me/__menu-items/about-me__menu-items.css);
+@import url(./blocks/about-me/__menu-item/about-me__menu-item.css);
+@import url(./blocks/about-me/__item-link/about-me__item-link.css);
+@import url(./blocks/about-me/__item-icon/about-me__item-icon.css);

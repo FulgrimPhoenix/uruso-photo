@@ -3,10 +3,10 @@ import { Main } from "./Main";
 
 function App() {
   return (
-    <body className="page">
+    <div className="page">
       <Header />
       <Main />
-    </body>
+    </div>
   );
 }
 
