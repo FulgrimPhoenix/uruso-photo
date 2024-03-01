@@ -1,6 +1,6 @@
 .about-me{
-  margin: 60px auto;
-  padding: 0 165px 70px;
+  margin: 60px auto 0;
+  padding: 0 165px;
   background: linear-gradient(
   rgba(134, 67, 220, .15),
   #fff );

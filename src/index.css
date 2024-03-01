@@ -38,3 +38,9 @@
 @import url(./blocks/about-me/__menu-item/about-me__menu-item.css);
 @import url(./blocks/about-me/__item-link/about-me__item-link.css);
 @import url(./blocks/about-me/__item-icon/about-me__item-icon.css);
+
+@import url(./blocks/videoPortfolio/videoPortfolio.css);
+@import url(./blocks/videoPortfolio/__container/videoPortfolio__container.css);
+@import url(./blocks/videoPortfolio/__link/videoPortfolio__link.css);
+@import url(./blocks/videoPortfolio/__title-cell/videoPortfolio__title-cell.css);
+@import url(./blocks/videoPortfolio/__video/videoPortfolio___video.css);

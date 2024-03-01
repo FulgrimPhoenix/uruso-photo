@@ -95,5 +95,11 @@ export const constants = {
         link: "https://vk.com/urusof"
       },
     ]
+  },
+  videoPortfolio: {
+    sectionTitle: "Видео",
+    sectionSubtitle: "Мои работы по видеосъемке",
+    linkOnMyYouTube: "https://www.youtube.com/watch?v=K7XHy8nppf4",
+    textOnYouTubeLink: "Больше моих работ →"
   }
 };
