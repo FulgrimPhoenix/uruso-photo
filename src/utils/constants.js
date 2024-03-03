@@ -3,6 +3,7 @@ import photoIcon from "../images/icons/photoIcon.svg"
 import vkIcon from "../images/icons/vkIcon.png"
 import telegramIcon from "../images/icons/telegaIcon.png"
 import aboutMePhoto from "../images/myPhoto.jpg"
+import { photos } from "./photos";
 
 export const constants = {
   header: {
@@ -101,5 +102,13 @@ export const constants = {
     sectionSubtitle: "Мои работы по видеосъемке",
     linkOnMyYouTube: "https://www.youtube.com/watch?v=K7XHy8nppf4",
     textOnYouTubeLink: "Больше моих работ →"
+  },
+  photoPortfolio: {
+    sectionTitle: "Фото",
+    sectionSubtitle: "Мои работы по фотосъемке",
+    firstColumnTitle: "Ландшафт",
+    secondColumnTitle: "Дачи",
+    thirdColumnTitle: "Соседи",
+    photos: photos
   }
 };

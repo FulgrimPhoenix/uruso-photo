@@ -1,0 +1,12 @@
+.photoPortfolio {
+  padding: 0 165px 0px;
+  margin: 0 auto;
+  background: radial-gradient(
+    at 50% 50%,
+    rgba(134, 67, 220, 0.1),
+    rgba(134, 67, 220, 0.4) 20%,
+    rgba(255, 137, 204, 0.2) 40%,
+    rgba(255, 255, 255) 50%
+  );
+  /* linear-gradient(#fff 20%, rgba(134, 67, 220, 1) 50%, #fff); */
+}
