@@ -1,0 +1,10 @@
+.testimonials__cell-text {
+  color: rgb(99, 96, 102);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 30px auto 0;
+  background: radial-gradient(rgba(255, 137, 204, 0.2) 40%, #fff 75%);
+}

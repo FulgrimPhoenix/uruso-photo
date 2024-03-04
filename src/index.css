@@ -54,3 +54,18 @@
 @import url(./blocks/photoPortfolio/__list-items/photoPortfolio__list-items.css);
 @import url(./blocks/photoPortfolio/__list-item/photoPortfolio__list-item.css);
 @import url(./blocks/photoPortfolio/__item-photo/photoPortfolio__item-photo.css);
+
+@import url(./blocks/testimonials/testimonials.css);
+@import url(./blocks/testimonials/__cells/testimonials__cells.css);
+@import url(./blocks/testimonials/__review-cell/testimonials__review-cell.css);
+@import url(./blocks/testimonials/__cell-icon/testimonials__cell-icon.css);
+@import url(./blocks/testimonials/__cell-text/testimonials__cell-text.css);
+@import url(./blocks/testimonials/__cell-photo/testimonials__cell-photo.css);
+@import url(./blocks/testimonials/__cell-client-name/testimonials__cell-client-name.css);
+
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__item-icon/footer__item-icon.css);
+@import url(./blocks/footer/__item-link/footer__item-link.css);
+@import url(./blocks/footer/__menu-item/footer__menu-item.css);
+@import url(./blocks/footer/__menu/footer__menu.css);
+@import url(./blocks/footer/__title/footer__title.css);

@@ -1,0 +1,9 @@
+.testimonials__cell-client-name {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 40px;
+}

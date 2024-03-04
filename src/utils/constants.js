@@ -1,9 +1,13 @@
 import logo from "../images/logo.svg";
-import photoIcon from "../images/icons/photoIcon.svg"
-import vkIcon from "../images/icons/vkIcon.png"
-import telegramIcon from "../images/icons/telegaIcon.png"
-import aboutMePhoto from "../images/myPhoto.jpg"
+import photoIcon from "../images/icons/photoIcon.svg";
+import vkIcon from "../images/icons/vkIcon.png";
+import telegramIcon from "../images/icons/telegaIcon.png";
+import aboutMePhoto from "../images/myPhoto.jpg";
+import reviewIcon from "../images/reviewIcon.svg";
+import footerTelegramIcon from "../images/icons/footerTelegramIcon.svg"
+import footerVkIcon from "../images/icons/footerVkIcon.svg"
 import { photos } from "./photos";
+import { reviews } from "./reviews";
 
 export const constants = {
   header: {
@@ -88,20 +92,20 @@ export const constants = {
       {
         title: "телеграмм",
         icon: telegramIcon,
-        link: "https://t.me/uruso"
+        link: "https://t.me/uruso",
       },
       {
         title: "вконтакте",
         icon: vkIcon,
-        link: "https://vk.com/urusof"
+        link: "https://vk.com/urusof",
       },
-    ]
+    ],
   },
   videoPortfolio: {
     sectionTitle: "Видео",
     sectionSubtitle: "Мои работы по видеосъемке",
     linkOnMyYouTube: "https://www.youtube.com/watch?v=K7XHy8nppf4",
-    textOnYouTubeLink: "Больше моих работ →"
+    textOnYouTubeLink: "Больше моих работ →",
   },
   photoPortfolio: {
     sectionTitle: "Фото",
@@ -109,6 +113,27 @@ export const constants = {
     firstColumnTitle: "Ландшафт",
     secondColumnTitle: "Дачи",
     thirdColumnTitle: "Соседи",
-    photos: photos
+    photos: photos,
+  },
+  testimonials: {
+    sectionTitle: "Отзывы",
+    sectionSubtitle: "Мнение клиентов о моей работе",
+    reviewIcon: reviewIcon,
+    reviews: reviews
+  },
+  footer: {
+    title: "Следите за мной в социальных сетях!",
+    navBar: [
+      {
+        title: "телеграмм",
+        icon: footerTelegramIcon,
+        link: "https://t.me/uruso",
+      },
+      {
+        title: "вконтакте",
+        icon: footerVkIcon,
+        link: "https://vk.com/urusof",
+      },
+    ],
   }
 };
