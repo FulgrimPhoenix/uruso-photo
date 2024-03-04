@@ -1,0 +1,10 @@
+.header__menu-list-item {
+  list-style: none;
+  margin-right: 30px;
+  opacity: .6;
+  transition: .3s;
+}
+
+.header__menu-list-item:hover{
+  opacity: 1;
+}

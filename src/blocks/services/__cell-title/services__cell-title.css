@@ -1,0 +1,9 @@
+.services__cell-title {
+  color: rgb(37, 32, 47);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 20px;
+}

@@ -1,0 +1,15 @@
+.about-me__menu-item{
+  list-style: none;
+  padding: 0;
+  margin-right: 40px;
+  transition: .2s ease-in;
+}
+
+.about-me__menu-item:last-child{
+    margin-right: 0;
+}
+
+.about-me__menu-item:hover{
+  transform: scale(1.1);
+  opacity: .8;
+}

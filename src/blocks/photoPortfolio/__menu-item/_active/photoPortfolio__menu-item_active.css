@@ -1,0 +1,5 @@
+.photoPortfolio__menu-item_active{
+  /* background: radial-gradient(rgba(134, 67, 220, .5), 30%, #fff 70%); */
+  box-shadow:  0 0 5px rgba(134, 67, 220, 1);
+  border-radius: 30px;
+}

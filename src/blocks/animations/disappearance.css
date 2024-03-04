@@ -1,0 +1,14 @@
+.disappearance{
+  animation: .25s forwards disappearance;
+}
+
+@keyframes disappearance {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    margin-top: 80px;
+    opacity: 0;
+  }
+}

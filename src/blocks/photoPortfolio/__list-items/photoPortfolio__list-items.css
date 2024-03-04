@@ -1,0 +1,13 @@
+.photoPortfolio__list-items{
+  margin: 60px auto 0;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-flow: row;
+  column-gap: 30px;
+  row-gap: 50px;
+  padding: 0;
+  opacity: 1;
+  padding-bottom: 100px;
+}
+

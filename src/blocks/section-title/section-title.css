@@ -1,0 +1,13 @@
+.section-title {
+  color: rgb(134, 67, 220);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  border-bottom: 2px solid rgb(134, 67, 220);
+  display: inline-block;
+  padding-bottom: 5px;
+  margin: 0;
+  padding-top: 100px;
+}

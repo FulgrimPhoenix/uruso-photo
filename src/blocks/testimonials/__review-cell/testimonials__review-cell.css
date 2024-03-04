@@ -1,0 +1,8 @@
+.testimonials__review-cell{
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  min-height: 550px;
+}

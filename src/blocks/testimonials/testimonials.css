@@ -1,0 +1,30 @@
+.testimonials {
+  padding: 0 165px;
+  margin-bottom: 100px;
+}
+
+.testimonials .swiper-button-next{
+  color: #8643dc;
+  height: 60px;
+  width: 60px;
+  transition: .2s linear;
+}
+
+.testimonials .swiper-button-next:hover{
+  transform: scale(1.1);
+}
+
+.testimonials .swiper-button-prev{
+  color: #8643dc;
+  height: 60px;
+  width: 60px;
+  transition: .2s linear;
+}
+
+.testimonials .swiper-button-prev:hover{
+  transform: scale(1.1);
+}
+
+.testimonials .swiper-pagination-bullet-active {
+  background: #8643dc;
+}

@@ -1,0 +1,7 @@
+.services__cells{
+  margin-top: 58px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 350px);
+  gap: 30px;
+  padding: 0;
+}

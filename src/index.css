@@ -1,13 +1,71 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+@import url(./blocks/page/page.css);
+@import url(./blocks/section-title/section-title.css);
+@import url(./blocks/section-subtitle/section-subtitle.css);
+@import url(./blocks/animations/appearance.css);
+@import url(./blocks/animations/disappearance.css);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__menu/header__menu.css);
+@import url(./blocks/header/__menu-list/header__menu-list.css);
+@import url(./blocks/header/__menu-list-item/header__menu-list-item.css);
+@import url(./blocks/header/__menu-list-link/header__menu-list-link.css);
+
+@import url(./blocks/intro/intro.css);
+@import url(./blocks/intro/__title/intro__title.css);
+@import url(./blocks/intro/__subtitle/intro__subtitle.css);
+@import url(./blocks/intro/__title_accect/intro__title_accent.css);
+@import url(./blocks/intro/__button/intro__button.css);
+
+@import url(./blocks/services/services.css);
+@import url(./blocks/services/__cell/services__cell.css);
+@import url(./blocks/services/__cell-title/services__cell-title.css);
+@import url(./blocks/services/__cells/services__cells.css);
+@import url(./blocks/services/__cell-header/services__cell-header.css);
+@import url(./blocks/services/__description/services__description.css);
+@import url(./blocks/services/__cell-description/services__cell-description.css);
+
+@import url(./blocks/about-me/about-me.css);
+@import url(./blocks/about-me/__cells/about-me__cells.css);
+@import url(./blocks/about-me/__description/about-me__description.css);
+@import url(./blocks/about-me/__photo-cell/about-me__photo-cell.css);
+@import url(./blocks/about-me/__subtitle/about-me__subtitle.css);
+@import url(./blocks/about-me/__text-cells/about-me__text-cells.css);
+@import url(./blocks/about-me/__title/about-me__title.css);
+@import url(./blocks/about-me/__menu/about-me__menu.css);
+@import url(./blocks/about-me/__menu-title/about-me__menu-title.css);
+@import url(./blocks/about-me/__menu-items/about-me__menu-items.css);
+@import url(./blocks/about-me/__menu-item/about-me__menu-item.css);
+@import url(./blocks/about-me/__item-link/about-me__item-link.css);
+@import url(./blocks/about-me/__item-icon/about-me__item-icon.css);
+
+@import url(./blocks/videoPortfolio/videoPortfolio.css);
+@import url(./blocks/videoPortfolio/__container/videoPortfolio__container.css);
+@import url(./blocks/videoPortfolio/__link/videoPortfolio__link.css);
+@import url(./blocks/videoPortfolio/__title-cell/videoPortfolio__title-cell.css);
+@import url(./blocks/videoPortfolio/__video/videoPortfolio___video.css);
+
+@import url(./blocks/photoPortfolio/photoPortfolio.css);
+@import url(./blocks/photoPortfolio/__menu/photoPortfolio__menu.css);
+@import url(./blocks/photoPortfolio/__menu-item/photoPortfolio__menu-item.css);
+@import url(./blocks/photoPortfolio/__menu-item/_active/photoPortfolio__menu-item_active.css);
+@import url(./blocks/photoPortfolio/__list-items/photoPortfolio__list-items.css);
+@import url(./blocks/photoPortfolio/__list-item/photoPortfolio__list-item.css);
+@import url(./blocks/photoPortfolio/__item-photo/photoPortfolio__item-photo.css);
+
+@import url(./blocks/testimonials/testimonials.css);
+@import url(./blocks/testimonials/__cells/testimonials__cells.css);
+@import url(./blocks/testimonials/__review-cell/testimonials__review-cell.css);
+@import url(./blocks/testimonials/__cell-icon/testimonials__cell-icon.css);
+@import url(./blocks/testimonials/__cell-text/testimonials__cell-text.css);
+@import url(./blocks/testimonials/__cell-photo/testimonials__cell-photo.css);
+@import url(./blocks/testimonials/__cell-client-name/testimonials__cell-client-name.css);
+
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__item-icon/footer__item-icon.css);
+@import url(./blocks/footer/__item-link/footer__item-link.css);
+@import url(./blocks/footer/__menu-item/footer__menu-item.css);
+@import url(./blocks/footer/__menu/footer__menu.css);
+@import url(./blocks/footer/__title/footer__title.css);

@@ -1,0 +1,15 @@
+.appearance{
+  animation: .25s forwards appearance;
+  opacity: 1;
+}
+
+@keyframes appearance {
+  from {
+    margin-top: 80px;
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
