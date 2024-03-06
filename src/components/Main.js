@@ -6,6 +6,7 @@ import { Services } from "./Services";
 import { VideoPortfolio } from "./VideoPortfolio";
 import { useState } from "react";
 import { Testimonials } from "./Testimonials";
+import { Cooperation } from "./Cooperation";
 
 export function Main() {
 
@@ -22,6 +23,7 @@ export function Main() {
       <AboutMe />
       <VideoPortfolio />
       <PhotoPortfolio activeColumn={whichСolumnIsActive} activateColumn={switchActiveColumn} />
+      <Cooperation />
       <Testimonials />
     </main>
   );

@@ -1,0 +1,8 @@
+.cooperation__item-photo{
+  width: 50%;
+  min-width: 75px;
+  height: 75px;
+  margin: auto;
+  z-index: 2;
+  position: relative;
+}

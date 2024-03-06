@@ -1,0 +1,11 @@
+.cooperation__menu{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 250px));
+  grid-auto-rows: minmax(160px, 250px);
+  gap: 30px;
+  justify-content: center;
+  max-width: 810px;
+  padding: 0;
+  margin: 70px auto 0;
+  justify-items: center;
+}

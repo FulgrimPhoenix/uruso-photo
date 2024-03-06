@@ -1,0 +1,16 @@
+<svg width="82.000000" height="82.000000" viewBox="0 0 82 82" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip6_53">
+			<rect id="фрейм 2" width="82.000000" height="82.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="фрейм 2" width="82.000000" height="82.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<g clip-path="url(#clip6_53)">
+		<path id="polygon14" d="M60 22L60 32L72 32L72 72L32 72L32 61.1L32 51.1L32 32L50 32L50 22L22 22L22 51.1L22 61.1L22 82L82 82L82 22L60 22Z" fill="#2168DE" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="polygon10" d="M10 50L10 10L50 10L50 20.9L60 20.9L60 0L-7.62939e-06 0L-7.62939e-06 60L22 60L22 50L10 50Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="polygon12" d="M50 21L50 31L50 50.1L32 50.1L32 60.1L60 60.1L60 31L60 21L50 21Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

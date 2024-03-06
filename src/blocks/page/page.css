@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 .page{
   position: relative;
   margin: 0 auto;
@@ -10,3 +14,4 @@
   background-size: 765px 850px;
   background-position: top -100px right 0;
 }
+

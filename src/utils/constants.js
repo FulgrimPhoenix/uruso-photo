@@ -9,6 +9,13 @@ import footerVkIcon from "../images/icons/footerVkIcon.svg"
 import { photos } from "./photos";
 import { reviews } from "./reviews";
 
+import mastera from "../images/CompaniesLogos/MasteraRemonta.svg";
+import larson from "../images/CompaniesLogos/Larson.svg";
+import mdm from "../images/CompaniesLogos/MDMLight.jpg";
+import remontKvart from "../images/CompaniesLogos/RemontKvart.svg"
+import skn from "../images/CompaniesLogos/SKN.svg";
+import KCM from "../images/CompaniesLogos/KCM.png"
+
 export const constants = {
   header: {
     logo: logo,
@@ -30,6 +37,10 @@ export const constants = {
         link: "#portfolioVideo",
       },
       {
+        title: "Мои клиенты",
+        link: "#cooperation",
+      },
+      {
         title: "Отзывы",
         link: "#testimonials",
       },
@@ -39,7 +50,7 @@ export const constants = {
     greeting: "Привет, я ",
     name: "Урусов Андрей",
     specialization: "профессиональный фотограф",
-    buttonText: "Давай поговрим",
+    buttonText: "Договориться о съемке",
     buttonLink: "https://t.me/uruso",
   },
   service: {
@@ -110,7 +121,7 @@ export const constants = {
   photoPortfolio: {
     sectionTitle: "Фото",
     sectionSubtitle: "Мои работы по фотосъемке",
-    firstColumnTitle: "Ландшафт",
+    firstColumnTitle: "Дома",
     secondColumnTitle: "Дачи",
     thirdColumnTitle: "Соседи",
     photos: photos,
@@ -135,5 +146,47 @@ export const constants = {
         link: "https://vk.com/urusof",
       },
     ],
+  },
+  cooperation: {
+    sectionTitle: "Клиенты",
+    sectionSubtitle: "Среди моих клиентов:",
+    companies: [
+      {
+        title: "Мастера Ремонта",
+        logo: mastera,
+        link: "https://mastera-remonta.com/",
+        color: "green"
+      },
+      {
+        title: "Larsson",
+        logo: larson,
+        link: "https://larsson.pro/",
+        color: "pink"
+      },
+      {
+        title: "МДМ-ЛАЙТ",
+        logo: mdm,
+        link: "https://www.mdm-light.ru/",
+        color: "blue"
+      },
+      {
+        title: "Ремонт Кварт",
+        logo: remontKvart,
+        link: "https://remontkvart-msk.ru/",
+        color: "yellow"
+      },
+      {
+        title: "SKN-DOM",
+        logo: skn,
+        link: "https://skn-dom.ru/",
+        color: "light-green"
+      },
+      {
+        title: "Торговый дом КСМ",
+        logo: KCM,
+        link: "https://tdksm.ru/o-kompanyi/",
+        color: "orange"
+      },
+    ]
   }
 };

@@ -4,7 +4,7 @@ export function PhotoPortfolioPhotoGrid({animationPlaying, photoList}){
       {photoList.map(photo => {
         return (
           <li className={`photoPortfolio__list-item`}>
-            <img className="photoPortfolio__item-photo" src={photo} alt="фото" />
+            <img className="photoPortfolio__item-photo" src={photo.link} alt="фото" />
           </li>
         )
       })}

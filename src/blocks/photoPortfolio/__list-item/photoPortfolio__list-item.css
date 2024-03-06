@@ -4,4 +4,10 @@
   box-shadow: 0 0 50px rgba(134, 67, 220, 0.1);
   border-radius: 10px;
   overflow: hidden;
+  transition: .2s ease-in;
+  cursor: pointer;
+}
+
+.photoPortfolio__list-item:hover{
+  transform: scale(1.03);
 }
