@@ -8,12 +8,11 @@ import { useState } from "react";
 import { Testimonials } from "./Testimonials";
 import { Cooperation } from "./Cooperation";
 
-export function Main() {
-
+export function Main({ togglePopup, setCurrentPhotoList }) {
   const [whichСolumnIsActive, setWhichСolumnIsActive] = useState(1);
 
-  function switchActiveColumn(number){
-    setWhichСolumnIsActive(number)
+  function switchActiveColumn(number) {
+    setWhichСolumnIsActive(number);
   }
 
   return (
@@ -22,7 +21,12 @@ export function Main() {
       <Services />
       <AboutMe />
       <VideoPortfolio />
-      <PhotoPortfolio activeColumn={whichСolumnIsActive} activateColumn={switchActiveColumn} />
+      <PhotoPortfolio
+        setCurrentPhotoList={setCurrentPhotoList}
+        activeColumn={whichСolumnIsActive}
+        activateColumn={switchActiveColumn}
+        togglePopup={togglePopup}
+      />
       <Cooperation />
       <Testimonials />
     </main>

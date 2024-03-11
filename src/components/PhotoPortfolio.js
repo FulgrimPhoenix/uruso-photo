@@ -3,7 +3,7 @@ import { constants } from "../utils/constants";
 import { PhotoPortfolioNavButton } from "./PhotoPortfolioNavButton";
 import { PhotoPortfolioPhotoGrid } from "./PhotoPortfolioPhotoGrid";
 
-export function PhotoPortfolio({ activeColumn, activateColumn }) {
+export function PhotoPortfolio({ activeColumn, activateColumn, togglePopup,setCurrentPhotoList }) {
   const [photoList, setPhotoList] = useState(
     constants.photoPortfolio.photos.land
   );
@@ -14,10 +14,13 @@ export function PhotoPortfolio({ activeColumn, activateColumn }) {
     setTimeout(() => {
       if (activeColumn === 1) {
         setPhotoList(constants.photoPortfolio.photos.land);
+        setCurrentPhotoList(constants.photoPortfolio.photos.land);
       } else if (activeColumn === 2) {
-        setPhotoList(constants.photoPortfolio.photos.dacha);
+        setPhotoList(constants.photoPortfolio.photos.apartments);
+        setCurrentPhotoList(constants.photoPortfolio.photos.apartments);
       } else {
-        setPhotoList(constants.photoPortfolio.photos.sosedi);
+        setPhotoList(constants.photoPortfolio.photos.my);
+        setCurrentPhotoList(constants.photoPortfolio.photos.my);
       }
       setAnimationPlaying(true);
     }, 250);
@@ -52,6 +55,7 @@ export function PhotoPortfolio({ activeColumn, activateColumn }) {
       <PhotoPortfolioPhotoGrid
         animationPlaying={animationPlaying}
         photoList={photoList}
+        togglePopup={togglePopup}
       />
     </section>
   );

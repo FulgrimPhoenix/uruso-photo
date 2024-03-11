@@ -77,3 +77,11 @@
 @import url(./blocks/cooperation/__menu/cooperation__menu.css);
 @import url(./blocks/cooperation/__item-title/cooperation__item-title.css);
 @import url(./blocks/cooperation/__item-overlay/cooperation__item-overlay.css);
+
+@import url(./blocks/popup/__container/popup__container.css);
+@import url(./blocks/popup/__exit-button/popup__exit-button.css);
+@import url(./blocks/popup/__photo/popup__photo.css);
+@import url(./blocks/popup/_opened/popup_opened.css);
+@import url(./blocks/popup/__exit-buttom-img/popup__exit-buttom-img.css);
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/popup/_closed/popup_closed.css);

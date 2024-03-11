@@ -14,7 +14,9 @@ import larson from "../images/CompaniesLogos/Larson.svg";
 import mdm from "../images/CompaniesLogos/MDMLight.jpg";
 import remontKvart from "../images/CompaniesLogos/RemontKvart.svg"
 import skn from "../images/CompaniesLogos/SKN.svg";
-import KCM from "../images/CompaniesLogos/KCM.png"
+import KCM from "../images/CompaniesLogos/KCM.png";
+
+import exitButton from "../images/popup/popup__exit.svg"
 
 export const constants = {
   header: {
@@ -122,8 +124,8 @@ export const constants = {
     sectionTitle: "Фото",
     sectionSubtitle: "Мои работы по фотосъемке",
     firstColumnTitle: "Дома",
-    secondColumnTitle: "Дачи",
-    thirdColumnTitle: "Соседи",
+    secondColumnTitle: "Квартиры",
+    thirdColumnTitle: "Моё",
     photos: photos,
   },
   testimonials: {
@@ -188,5 +190,8 @@ export const constants = {
         color: "orange"
       },
     ]
+  },
+  popup: {
+    exitButton: exitButton,
   }
 };

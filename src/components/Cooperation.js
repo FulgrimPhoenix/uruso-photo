@@ -8,7 +8,7 @@ export function Cooperation() {
       <ul className="cooperation__menu">
         {constants.cooperation.companies.map((company) => {
           return (
-            <li className={`cooperation__menu-item cooperation__menu-item_${company.color}`}>
+            <li key={company.title} className={`cooperation__menu-item cooperation__menu-item_${company.color}`}>
               <div className="cooperation__item-cell">
               <img
                   className="cooperation__item-photo"

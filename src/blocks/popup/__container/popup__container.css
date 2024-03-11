@@ -1,0 +1,9 @@
+.popup__container{
+  margin: 0;
+  width: 60%;
+  position: relative;
+  margin: auto;
+}
+.popup__container .swiper-3d .swiper-slide-shadow{
+  background: rgba(0, 0, 0, 0);
+}
