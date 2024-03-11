@@ -1,9 +1,16 @@
 .about-me__title {
-    margin: 0;
-    color: rgb(37, 32, 47);
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0;
-    text-align: left;
+  margin: 0;
+  color: rgb(37, 32, 47);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+@media screen and (max-width: 1120px) {
+  .about-me__title {
+    font-size: 28px;
+    line-height: 36px;
+  }
 }

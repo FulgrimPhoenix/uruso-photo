@@ -8,3 +8,29 @@
   background-color: rgba(0, 0, 0, .8);
   transition: opacity .2s linear;
 }
+
+.popup .swiper-button-next{
+  color: #582d91;
+  height: 60px;
+  width: 60px;
+  transition: .2s linear;
+}
+
+.popup .swiper-button-next:hover{
+  transform: scale(1.1);
+}
+
+.popup .swiper-button-prev{
+  color: #582d91;
+  height: 60px;
+  width: 60px;
+  transition: .2s linear;
+}
+
+.popup .swiper-button-prev:hover{
+  transform: scale(1.1);
+}
+
+.popup .swiper-pagination-bullet-active {
+  background: #582d91;
+}

@@ -28,3 +28,9 @@
 .testimonials .swiper-pagination-bullet-active {
   background: #8643dc;
 }
+
+@media screen and (max-width: 1280px) {
+  .testimonials {
+    padding: 0 85px;
+  }
+}

@@ -2,3 +2,9 @@
   padding: 0 165px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1280px) {
+  .cooperation {
+    padding: 0 85px;
+  }
+}

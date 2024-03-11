@@ -6,3 +6,9 @@
   background-color: #fff;
   min-height: 550px;
 }
+
+@media screen and (max-width: 1120px) {
+  .testimonials__review-cell{
+    width: 60%;
+  }
+}

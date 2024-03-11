@@ -1,9 +1,16 @@
-.about-me__menu-title{
-    color: rgb(37, 32, 47);
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 32px;
-    letter-spacing: 0%;
-    text-align: center;
-    text-decoration: underline;
+.about-me__menu-title {
+  color: rgb(37, 32, 47);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1120px) {
+  .about-me__menu-title {
+    font-size: 22px;
+    line-height: 28px;
+  }
 }
