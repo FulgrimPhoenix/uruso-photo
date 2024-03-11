@@ -8,3 +8,10 @@
   margin: 30px auto 0;
   background: radial-gradient(rgba(255, 137, 204, 0.2) 40%, #fff 75%);
 }
+
+@media screen and (max-width: 1000px) {
+  .testimonials__cell-text {
+    font-size: 14px;
+    line-height: 28px;
+  }
+}

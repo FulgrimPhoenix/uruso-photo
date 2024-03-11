@@ -4,3 +4,11 @@
     display: flex;
     flex-direction: row;
 }
+
+@media screen and (max-width: 1000px) {
+    .videoPortfolio__container{
+        min-height: 500px;
+        flex-direction: column;
+        grid-row: 2 / 4;
+    }
+}

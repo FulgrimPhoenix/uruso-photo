@@ -16,3 +16,10 @@
     line-height: 28px;
   }
 }
+
+@media screen and (max-width: 1000px) {
+    .about-me__description{
+        text-align: justify;
+        margin: 20px auto;
+    }
+}

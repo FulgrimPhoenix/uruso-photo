@@ -18,4 +18,9 @@
   opacity: .8;
 }
 
-
+@media screen and (max-width: 1000px) {
+  .intro__button{
+    font-size: 18px;
+    padding: 10px 15px;
+  }
+}

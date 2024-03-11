@@ -6,3 +6,11 @@
   letter-spacing: 0%;
   text-align: left;
 }
+
+
+@media screen and (max-width: 1000px) {
+  .intro__title{
+    margin: 0;
+    font-size: 20px;
+  }
+}

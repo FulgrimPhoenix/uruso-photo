@@ -1,8 +1,41 @@
+import { useEffect, useState } from "react";
 import { useWindowSize } from "../hooks/useWindowSize";
 import { constants } from "../utils/constants";
 
 export function VideoPortfolio() {
   const windowSize = useWindowSize();
+
+  const [videoWindowWidth, setVideoWindowWidth] = useState(
+    getVideoWidth(windowSize)
+  );
+  const [videoWindowHeight, setVideoWindowHeight] = useState(
+    getVideoHeight(windowSize)
+  );
+
+  useEffect(() => {
+    setVideoWindowWidth(getVideoWidth(windowSize));
+    setVideoWindowHeight(getVideoHeight(windowSize));
+  }, [windowSize]);
+
+  function getVideoWidth(currentWidth) {
+    if (currentWidth < 1230) {
+      if (currentWidth < 1000) {
+        return "450";
+      }
+      return "400";
+    }
+    return "500";
+  }
+
+  function getVideoHeight(currentWidth) {
+    if (currentWidth < 1230) {
+      if (currentWidth < 1000) {
+        return "252";
+      }
+      return "224";
+    }
+    return "280";
+  }
 
   return (
     <section id="portfolioVideo" className="videoPortfolio">
@@ -28,8 +61,8 @@ export function VideoPortfolio() {
             display: "inline-block",
             margin: "auto",
           }}
-          width={windowSize < 1230 ? "400" : "500"}
-          height={windowSize < 1230 ? "224" : "280"}
+          width={videoWindowWidth}
+          height={videoWindowHeight}
           src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=5dIOMcCyBoSwaMRo"
           title="YouTube video player"
           frameborder="0"
@@ -43,8 +76,8 @@ export function VideoPortfolio() {
             display: "inline-block",
             margin: "auto",
           }}
-          width={windowSize < 1230 ? "400" : "500"}
-          height={windowSize < 1230 ? "224" : "280"}
+          width={videoWindowWidth}
+          height={videoWindowHeight}
           src="https://www.youtube.com/embed/hvL1339luv0?si=0cZVONUsmdgS-iub"
           title="YouTube video player"
           frameborder="0"

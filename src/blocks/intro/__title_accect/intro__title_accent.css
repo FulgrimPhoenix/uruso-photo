@@ -5,3 +5,11 @@
   letter-spacing: 0%;
   text-align: left;
 }
+
+
+@media screen and (max-width: 1000px) {
+  .intro__title_accent{
+    font-size: 40px;
+    line-height: 70px;
+  }
+}

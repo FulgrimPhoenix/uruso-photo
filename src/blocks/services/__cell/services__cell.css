@@ -5,8 +5,14 @@
   flex-direction: column;
   min-width: 300px;
   max-width: 350px;
+  margin-right: 20px;
 }
 
-.services__cell:last-child{
-  margin: 20px 0;
+@media screen and (max-width: 1120px) {
+  .services__cell{
+    margin: 0;
+  }
+  .services__cell:last-child{
+    margin: 20px 0 0;
+  }
 }
