@@ -4,3 +4,10 @@
   margin: auto auto 0 auto;
   border-radius: 20px;
 }
+
+@media screen and (max-width: 600px) {
+  .testimonials__cell-photo{
+    width: 80px;
+    height: 80px;
+  }
+}

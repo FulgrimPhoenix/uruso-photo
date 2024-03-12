@@ -20,6 +20,9 @@ export function VideoPortfolio() {
   function getVideoWidth(currentWidth) {
     if (currentWidth < 1230) {
       if (currentWidth < 1000) {
+        if (currentWidth < 600) {
+          return "280"
+        }
         return "450";
       }
       return "400";
@@ -30,6 +33,9 @@ export function VideoPortfolio() {
   function getVideoHeight(currentWidth) {
     if (currentWidth < 1230) {
       if (currentWidth < 1000) {
+        if (currentWidth < 600) {
+          return "157"
+        }
         return "252";
       }
       return "224";

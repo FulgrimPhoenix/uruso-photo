@@ -11,10 +11,13 @@ import {
   Keyboard
 } from "swiper/modules";
 import { constants } from "../utils/constants";
+import { useWindowSize } from "../hooks/useWindowSize";
 
 // SwiperCore.use([EffectCoverflow, Pagination, Navigation]);
 
 export function Testimonials() {
+  const windowSize = useWindowSize();
+
   return (
     <section id="testimonials" className="testimonials">
       <h2 className="section-title">{constants.testimonials.sectionTitle}</h2>
@@ -29,7 +32,7 @@ export function Testimonials() {
           spaceBetween={50}
           slidesPerView={1}
           loop={true}
-          navigation={true}
+          navigation={windowSize <= 600 ? false : true}
           pagination={{
             dynamicBullets: true,
           }}

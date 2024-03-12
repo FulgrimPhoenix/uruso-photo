@@ -7,7 +7,6 @@
   letter-spacing: 0%;
   text-align: center;
   text-decoration: none;
-  margin: 0;
   background: none;
   border: none;
   cursor: pointer;
@@ -20,5 +19,14 @@
   .photoPortfolio__menu-item {
     font-size: 20px;
     line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .photoPortfolio__menu-item{
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 16px;
   }
 }

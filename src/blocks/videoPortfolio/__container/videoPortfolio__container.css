@@ -1,14 +1,20 @@
-.videoPortfolio__container{
-    grid-column: 1 / 3;
-    grid-row: 2 / 3;
-    display: flex;
-    flex-direction: row;
+.videoPortfolio__container {
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+  display: flex;
+  flex-direction: row;
 }
 
 @media screen and (max-width: 1000px) {
-    .videoPortfolio__container{
-        min-height: 500px;
-        flex-direction: column;
-        grid-row: 2 / 4;
-    }
+  .videoPortfolio__container {
+    min-height: 500px;
+    flex-direction: column;
+    grid-row: 2 / 5;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .videoPortfolio__container {
+    min-height: 400px;
+  }
 }

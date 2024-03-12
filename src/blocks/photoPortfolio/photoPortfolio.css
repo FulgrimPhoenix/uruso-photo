@@ -15,3 +15,20 @@
     padding: 0 85px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .photoPortfolio{
+    padding: 0 15px;
+    background: linear-gradient(
+    #fff,
+    rgba(134, 67, 220, 0.3) 30%,
+    rgba(255, 255, 255) 80%
+  );
+  }
+}
+
+.photoPortfolio .swiper-pagination-bullet-active {
+  background: #8643dc;
+  position: relative;
+  border: #fff 1px solid;
+}

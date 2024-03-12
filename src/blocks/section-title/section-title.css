@@ -24,3 +24,11 @@
     padding-top: 50px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .section-title{
+    padding-top: 30px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

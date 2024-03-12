@@ -4,3 +4,9 @@
   padding: 0;
   flex-direction: column;
 }
+
+@media screen and (max-width: 600px) {
+ .about-me__menu{
+  margin: 25px auto 0;
+ } 
+}

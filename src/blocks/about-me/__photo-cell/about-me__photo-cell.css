@@ -11,3 +11,9 @@
     margin: 0 auto 40px;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .about-me__photo-cell{
+    max-width: 100%;
+  }
+}

@@ -14,3 +14,11 @@
     line-height: 28px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .about-me__menu-title{
+    margin: 0 auto 20px;
+    font-size: 18px;
+    line-height: 24px;
+  } 
+}

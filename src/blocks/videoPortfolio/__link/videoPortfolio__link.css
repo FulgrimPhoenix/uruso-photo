@@ -18,8 +18,17 @@
 
 @media screen and (max-width: 1120px) {
   .videoPortfolio__link {
-    margin-top: 70px;
+    margin-top: 105px;
     font-size: 20px;
     line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .videoPortfolio__link{
+    font-size: 16px;
+    margin: 10px auto 0 0;
+    text-align: left;
+    line-height: 18px;
   }
 }

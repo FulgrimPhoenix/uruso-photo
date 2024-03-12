@@ -7,3 +7,11 @@
   text-align: left;
   margin-left: 20px;
 }
+
+@media screen and (max-width: 600px) {
+ .services__cell-title{
+  font-size: 20px;
+  line-height: 24px;
+  margin: auto auto auto 15px;
+ } 
+}

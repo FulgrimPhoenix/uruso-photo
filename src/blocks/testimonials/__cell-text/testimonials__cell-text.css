@@ -15,3 +15,12 @@
     line-height: 28px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .testimonials__cell-text{
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+}

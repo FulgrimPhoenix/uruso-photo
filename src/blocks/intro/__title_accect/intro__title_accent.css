@@ -13,3 +13,10 @@
     line-height: 70px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .intro__title_accent{
+    font-size: 30px;
+    line-height: 40px;
+  }
+}

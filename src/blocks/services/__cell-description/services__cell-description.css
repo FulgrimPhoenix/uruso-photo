@@ -9,16 +9,24 @@
   text-align: justify;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1120px) {
   .services__cell-description{
-    max-width: 310px;
+    max-width: 400px;
   }
 }
-
 
 @media screen and (max-width: 1000px) {
   .services__cell-description{
     font-size: 14px;
     line-height: 28px;
+    max-width: 310px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .services__cell-description{
+    width: 100%;
+    max-width: 100%;
+    margin-top: 5px;
   }
 }

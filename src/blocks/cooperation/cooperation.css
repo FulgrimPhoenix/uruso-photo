@@ -8,3 +8,9 @@
     padding: 0 85px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .cooperation{
+    padding: 0 15px;
+  }
+}

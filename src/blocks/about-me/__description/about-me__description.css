@@ -20,6 +20,12 @@
 @media screen and (max-width: 1000px) {
     .about-me__description{
         text-align: justify;
-        margin: 20px auto;
+        margin: 20px auto 0;
     }
+}
+
+@media screen and (max-width: 580px) {
+  .about-me__description{
+    min-width: 280px;
+  }
 }

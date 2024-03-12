@@ -12,3 +12,16 @@
     opacity: 0;
   }
 }
+
+@media screen and (max-width: 600px) {
+  @keyframes disappearance {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      margin-top: 40px;
+      opacity: 0;
+    }
+  }
+}

@@ -1,6 +1,10 @@
 .photoPortfolio__item-photo{
   width: 100%;
   display: block;
-
 }
 
+@media screen and (max-width: 600px) {
+  .photoPortfolio__item-photo{
+    border-radius: 15px;
+  }
+}

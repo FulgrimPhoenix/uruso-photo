@@ -13,3 +13,16 @@
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 600px) {
+  @keyframes appearance {
+    from {
+      margin-top: 40px;
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+}

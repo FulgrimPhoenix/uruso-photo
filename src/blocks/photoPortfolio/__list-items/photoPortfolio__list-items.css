@@ -17,3 +17,15 @@
     row-gap: 30px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .photoPortfolio__list-items{
+    row-gap: 20px;
+    margin: 30px auto 0;
+    max-height: 500px;
+    position: relative;
+    display: block;
+    width: 290px;
+    box-sizing: border-box;
+  }
+}

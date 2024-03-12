@@ -1,8 +1,8 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
-.page{
+.page {
   position: relative;
   margin: 0 auto;
   display: flex;
@@ -15,25 +15,30 @@ html{
   background-position: top -100px right 0;
 }
 
-
 @media screen and (max-width: 1280px) {
-  .page{
+  .page {
     background-size: 612px 680px;
     background-position: top 0px right 50px;
   }
 }
 
 @media screen and (max-width: 1120px) {
-  .page{
+  .page {
     background-size: 535px 595px;
     background-position: top 0px right 0px;
   }
 }
 
-
 @media screen and (max-width: 1000px) {
-  .page{
+  .page {
     background-size: 459px 510px;
     background-position: top 0px right -40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .page {
+    background-size: 321px 357px;
+    background-position: top 40px center;
   }
 }
