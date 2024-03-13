@@ -1,5 +1,5 @@
 .disappearance{
-  animation: .25s forwards disappearance;
+  animation: .15s forwards disappearance;
 }
 
 @keyframes disappearance {

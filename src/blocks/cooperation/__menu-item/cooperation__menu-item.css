@@ -38,3 +38,11 @@
 .cooperation__menu-item_orange{
   box-shadow: 0 0 15px rgba(255, 214, 196, 1.00);
 }
+
+@media screen and (max-width: 600px) {
+  .cooperation__menu-item{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+  }
+}

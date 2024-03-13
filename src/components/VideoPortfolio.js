@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
 import { useWindowSize } from "../hooks/useWindowSize";
 import { constants } from "../utils/constants";
+import leftVideo from "../images/videoPreview/left.png";
+import rightVideo from "../images/videoPreview/right.png";
 
 export function VideoPortfolio() {
   const windowSize = useWindowSize();
-
+  const [isLeftVideoActive, setIsLeftVideoActive] = useState(false);
+  const [isRightVideoActive, setIsRightVideoActive] = useState(false);
   const [videoWindowWidth, setVideoWindowWidth] = useState(
     getVideoWidth(windowSize)
   );
@@ -21,26 +24,26 @@ export function VideoPortfolio() {
     if (currentWidth < 1230) {
       if (currentWidth < 1000) {
         if (currentWidth < 600) {
-          return "280"
+          return 280;
         }
-        return "450";
+        return 450;
       }
-      return "400";
+      return 400;
     }
-    return "500";
+    return 500;
   }
 
   function getVideoHeight(currentWidth) {
     if (currentWidth < 1230) {
       if (currentWidth < 1000) {
         if (currentWidth < 600) {
-          return "157"
+          return 157;
         }
-        return "252";
+        return 252;
       }
-      return "224";
+      return 224;
     }
-    return "280";
+    return 280;
   }
 
   return (
@@ -61,36 +64,66 @@ export function VideoPortfolio() {
         {constants.videoPortfolio.textOnYouTubeLink}
       </a>
       <div className="videoPortfolio__container">
-        <iframe
-          style={{
-            boxShadow: "0 0 15px #8643DC",
-            display: "inline-block",
-            margin: "auto",
-          }}
-          width={videoWindowWidth}
-          height={videoWindowHeight}
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=5dIOMcCyBoSwaMRo"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          loading="lazy"
-          allowFullScreen
-        ></iframe>
-        <iframe
-          style={{
-            boxShadow: "0 0 15px #8643DC",
-            display: "inline-block",
-            margin: "auto",
-          }}
-          width={videoWindowWidth}
-          height={videoWindowHeight}
-          src="https://www.youtube.com/embed/hvL1339luv0?si=0cZVONUsmdgS-iub"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          loading="lazy"
-          allowFullScreen
-        ></iframe>
+        {isLeftVideoActive ? (
+          <iframe
+            style={{
+              boxShadow: "0 0 15px #8643DC",
+              display: "inline-block",
+              margin: "auto",
+            }}
+            width={videoWindowWidth}
+            height={videoWindowHeight}
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=5dIOMcCyBoSwaMRo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            loading="lazy"
+            allowFullScreen
+          >
+            Видео
+          </iframe>
+        ) : (
+          <img
+            style={{
+              display: "block",
+              margin: "auto",
+              width: videoWindowWidth,
+              height: videoWindowHeight,
+            }}
+            src={leftVideo}
+            alt="Видео из портфолио"
+            onClick={() => setIsLeftVideoActive(true)}
+          />
+        )}
+        {isRightVideoActive ? (
+          <iframe
+            style={{
+              boxShadow: "0 0 15px #8643DC",
+              display: "inline-block",
+              margin: "auto",
+            }}
+            width={videoWindowWidth}
+            height={videoWindowHeight}
+            src="https://www.youtube.com/embed/hvL1339luv0?si=0cZVONUsmdgS-iub"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            loading="lazy"
+            allowFullScreen
+          ></iframe>
+        ) : (
+          <img
+            style={{
+              display: "block",
+              margin: "auto",
+              width: videoWindowWidth,
+              height: videoWindowHeight,
+            }}
+            src={rightVideo}
+            alt="Видео из портфолио"
+            onClick={() => setIsRightVideoActive(true)}
+          />
+        )}
       </div>
     </section>
   );

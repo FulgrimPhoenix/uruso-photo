@@ -23,7 +23,7 @@ export function PhotoPortfolio({ activeColumn, activateColumn, togglePopup,setCu
         setCurrentPhotoList(constants.photoPortfolio.photos.my);
       }
       setAnimationPlaying(true);
-    }, 250);
+    }, 150);
   }, [activeColumn]);
 
   return (

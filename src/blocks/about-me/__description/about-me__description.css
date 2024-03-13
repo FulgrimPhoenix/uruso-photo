@@ -27,5 +27,6 @@
 @media screen and (max-width: 580px) {
   .about-me__description{
     min-width: 280px;
+    line-height: 26px;
   }
 }

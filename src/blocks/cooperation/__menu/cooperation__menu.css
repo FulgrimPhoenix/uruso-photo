@@ -13,5 +13,6 @@
 @media screen and (max-width: 600px) {
   .cooperation__menu {
     margin: 30px auto 0;
+    display: block;
   }
 }

@@ -1,4 +1,4 @@
-.cooperation{
+.cooperation {
   padding: 0 165px;
   margin: 0 auto;
 }
@@ -10,7 +10,13 @@
 }
 
 @media screen and (max-width: 600px) {
-  .cooperation{
+  .cooperation {
     padding: 0 15px;
   }
 }
+
+.cooperation .swiper-pagination-bullet-active {
+  background: #8643dc;
+  position: relative;
+}
+

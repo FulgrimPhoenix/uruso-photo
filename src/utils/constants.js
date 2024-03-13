@@ -1,9 +1,10 @@
-import logo from "../images/logo.svg";
+import logo from "../images/icons/logo.svg";
+import menuIcon from "../images/icons/menuNavBarIcon.svg"
 import photoIcon from "../images/icons/photoIcon.svg";
 import vkIcon from "../images/icons/vkIcon.png";
 import telegramIcon from "../images/icons/telegaIcon.png";
-import aboutMePhoto from "../images/myPhoto.jpg";
-import reviewIcon from "../images/reviewIcon.svg";
+import aboutMePhoto from "../images/photos/myPhoto.jpg";
+import reviewIcon from "../images/icons/reviewIcon.svg";
 import footerTelegramIcon from "../images/icons/footerTelegramIcon.svg"
 import footerVkIcon from "../images/icons/footerVkIcon.svg"
 import { photos } from "./photos";
@@ -21,6 +22,7 @@ import exitButton from "../images/popup/popup__exit.svg"
 export const constants = {
   header: {
     logo: logo,
+    menuIcon: menuIcon,
     pageNavLinks: [
       {
         title: "Услуги",

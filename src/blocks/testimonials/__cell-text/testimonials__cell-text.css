@@ -18,8 +18,9 @@
 
 @media screen and (max-width: 600px) {
   .testimonials__cell-text{
-    font-size: 12px;
-    line-height: 20px;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 26px;
     margin-bottom: 20px;
     margin-top: 10px;
   }
