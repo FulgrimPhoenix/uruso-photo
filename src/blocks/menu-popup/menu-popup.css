@@ -1,0 +1,9 @@
+.menu-popup{
+  position: fixed;
+  background-color: #fff;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  z-index: 6;
+  opacity: 0;
+}

@@ -1,5 +1,6 @@
 import logo from "../images/icons/logo.svg";
-import menuIcon from "../images/icons/menuNavBarIcon.svg"
+import menuIcon from "../images/icons/menuNavBarIcon.svg";
+import menuExitButton from "../images/popup/popup__exit_black.svg"
 import photoIcon from "../images/icons/photoIcon.svg";
 import vkIcon from "../images/icons/vkIcon.png";
 import telegramIcon from "../images/icons/telegaIcon.png";
@@ -23,6 +24,7 @@ export const constants = {
   header: {
     logo: logo,
     menuIcon: menuIcon,
+    menuExitButton: menuExitButton,
     pageNavLinks: [
       {
         title: "Услуги",

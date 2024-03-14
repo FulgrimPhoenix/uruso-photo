@@ -39,6 +39,6 @@ html {
 @media screen and (max-width: 600px) {
   .page {
     background-size: 321px 357px;
-    background-position: top 40px center;
+    background-position: top 20px center;
   }
 }

@@ -8,3 +8,9 @@
 .header__menu-list-item:hover{
   opacity: 1;
 }
+
+@media screen and (max-width: 600px) {
+  .header__menu-list-item{
+    margin: 10px auto;
+  }
+}
