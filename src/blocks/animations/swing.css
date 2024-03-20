@@ -1,0 +1,25 @@
+.swing{
+  animation: swing 2s infinite ease-in-out;
+}
+
+@keyframes swing {
+  from {
+    rotate: 0;
+  }
+
+  15% {
+    rotate: 15deg;
+  }
+
+  30% {
+    rotate: -15deg;
+  }
+
+  50%{
+    rotate: 0;
+  }
+
+  to {
+    rotate: 0;
+  }
+}

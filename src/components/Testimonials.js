@@ -61,6 +61,7 @@ export function Testimonials() {
                   <p className="testimonials__cell-client-name">
                     {client.name}
                   </p>
+                  <span className="testimonials__post">{client.post}</span>
                 </div>
               </SwiperSlide>
             );

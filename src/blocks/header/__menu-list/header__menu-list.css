@@ -3,12 +3,13 @@
   flex-direction: row;
   flex-wrap: nowrap;
   margin: auto;
+  padding: 0%;
+  margin: auto auto auto 30px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 940px) {
   .header__menu-list{
     flex-direction: column;
     margin: 80px auto 0;
-    padding: 0;
   }
 }

@@ -1,6 +1,6 @@
 .header__menu-list-item {
   list-style: none;
-  margin-right: 30px;
+  margin-right: 20px;
   opacity: .6;
   transition: .3s;
 }
@@ -9,8 +9,8 @@
   opacity: 1;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 940px) {
   .header__menu-list-item{
-    margin: 10px auto;
+    margin: 20px auto;
   }
 }

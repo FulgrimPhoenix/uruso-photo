@@ -5,6 +5,7 @@
 @import url(./blocks/section-subtitle/section-subtitle.css);
 @import url(./blocks/animations/appearance.css);
 @import url(./blocks/animations/disappearance.css);
+@import url(./blocks/animations/swing.css);
 
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/__logo/header__logo.css);
@@ -14,6 +15,9 @@
 @import url(./blocks/header/__menu-list-link/header__menu-list-link.css);
 @import url(./blocks/header/__menu-button/header__menu-button.css);
 @import url(./blocks/header/__menu-icon/header__menu-icon.css);
+@import url(./blocks/header/__telephone-cell/header__telephone-cell.css);
+@import url(./blocks/header/__telephone-icon/header__telephone-icon.css);
+@import url(./blocks/header/__telephone-cell/_small/header__telephone-cell_small.css);
 
 @import url(./blocks/intro/intro.css);
 @import url(./blocks/intro/__title/intro__title.css);
@@ -64,6 +68,7 @@
 @import url(./blocks/testimonials/__cell-text/testimonials__cell-text.css);
 @import url(./blocks/testimonials/__cell-photo/testimonials__cell-photo.css);
 @import url(./blocks/testimonials/__cell-client-name/testimonials__cell-client-name.css);
+@import url(./blocks/testimonials/__post/testimonials__post.css);
 
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__item-icon/footer__item-icon.css);

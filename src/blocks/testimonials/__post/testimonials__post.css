@@ -1,0 +1,10 @@
+.testimonials__post {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0 auto 40px;
+  max-width: 70%;
+}

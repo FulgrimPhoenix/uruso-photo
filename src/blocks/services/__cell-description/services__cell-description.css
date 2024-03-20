@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1028px) {
   .services__cell-description{
     font-size: 14px;
     line-height: 28px;

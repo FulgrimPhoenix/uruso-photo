@@ -5,11 +5,11 @@
   line-height: 32px;
   letter-spacing: 0%;
   text-align: center;
-  margin: 30px auto 0;
+  margin: auto auto;
   background: radial-gradient(rgba(255, 137, 204, 0.2) 40%, #fff 75%);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1028px) {
   .testimonials__cell-text {
     font-size: 14px;
     line-height: 28px;
@@ -21,7 +21,5 @@
     padding: 0 10px;
     font-size: 14px;
     line-height: 26px;
-    margin-bottom: 20px;
-    margin-top: 10px;
   }
 }

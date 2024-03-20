@@ -6,4 +6,5 @@
   height: 100vh;
   z-index: 6;
   opacity: 0;
+  flex-direction: column;
 }

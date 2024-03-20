@@ -4,6 +4,8 @@ import menuExitButton from "../images/popup/popup__exit_black.svg"
 import photoIcon from "../images/icons/photoIcon.svg";
 import vkIcon from "../images/icons/vkIcon.png";
 import telegramIcon from "../images/icons/telegaIcon.png";
+import phoneIcon from "../images/icons/PhoneIcon.png";
+import headerPhoneIcon from "../images/icons/headerPhoneIcon.png"
 import aboutMePhoto from "../images/photos/myPhoto.jpg";
 import reviewIcon from "../images/icons/reviewIcon.svg";
 import footerTelegramIcon from "../images/icons/footerTelegramIcon.svg"
@@ -18,13 +20,15 @@ import remontKvart from "../images/CompaniesLogos/RemontKvart.svg"
 import skn from "../images/CompaniesLogos/SKN.svg";
 import KCM from "../images/CompaniesLogos/KCM.png";
 
-import exitButton from "../images/popup/popup__exit.svg"
+import exitButton from "../images/popup/popup__exit.svg";
 
 export const constants = {
   header: {
     logo: logo,
     menuIcon: menuIcon,
     menuExitButton: menuExitButton,
+    phoneIcon: headerPhoneIcon,
+    phoneLink: "tel: +79096695149",
     pageNavLinks: [
       {
         title: "Услуги",
@@ -35,11 +39,11 @@ export const constants = {
         link: "#aboutMe",
       },
       {
-        title: "Фото",
+        title: "Фотосъёмка",
         link: "#portfolioPhoto",
       },
       {
-        title: "Видео",
+        title: "Видеосъёмка",
         link: "#portfolioVideo",
       },
       {
@@ -55,7 +59,7 @@ export const constants = {
   intro: {
     greeting: "Привет, я ",
     name: "Урусов Андрей",
-    specialization: "профессиональный фотограф",
+    specialization: "интерьерный фотограф и видеооператор",
     buttonText: "Договориться о съемке",
     buttonLink: "https://t.me/uruso",
   },
@@ -66,46 +70,47 @@ export const constants = {
       {
         img: photoIcon,
         title: "Фотосъёмка",
-        description: `Фотосессия для семьи и друзей, 
-        включая индивидуальные, парные и групповые фотосессии. 
-        Студийная фотосессия с возможностью выбора фона и реквизита. 
-        Фотосессия на природе, позволяющая запечатлеть красоту 
-        окружающего мира.`,
+        description: `Интерьерная фотосъёмка квартир, загородных домов, 
+        офисов и других коммерческих помещений. Создание качественного 
+        контента для бизнеса и собственников с использованием профессионального 
+        оборудования. Ретушь, цветокоррекция и исправление геометрии объектов.`,
+      },
+      {
+        img: photoIcon,
+        title: "Монтаж",
+        description: `Создание профессионального видео-контента из вашего материала. 
+        Монтаж корпоративных фильмов, таймлапсов, интро, анимированных логотипов и другое. 
+        Сведение, динамические спецэффекты и ретушь видеоматериала.`,
       },
       {
         img: photoIcon,
         title: "Видеосъёмка",
-        description: `Съемка и монтаж свадебного видео;
-        Создание корпоративных видеороликов;
-        Съемка и обработка видео с праздников и мероприятий;
-        Постпродакшн и цветокоррекция видео;
-        Ретушь и добавление спецэффектов на видео;`,
-      },
-      {
-        img: photoIcon,
-        title: "Слежка за соседями",
-        description: `С огромным опытом и профессионализмом, я всегда 
-        готов помочь вам узнать, что происходит в вашем районе. Моя 
-        главная цель – обеспечить вашу безопасность и комфорт, 
-        предоставляя информацию о подозрительных действиях и событиях.`,
+        description: `Видеосъёмка объектов недвижимости под ключ - от задумки до 
+        реализации. Создание интерьерных роликов, обзоров, видео-отзывов и рекламного 
+        контента. Аэросъёмка с использованием квадрокоптера. Монтаж любой сложности. 
+        Помощь в генерации идей и написании сценариев.`,
       },
     ],
   },
   aboutMe: {
     sectionTitle: "Обо мне",
-    title: "Андрей",
+    title: "Меня зовут Урусов Андрей",
     subtitle: "Ландшафтный фотограф, 33 года",
-    description: `Позвольте представиться. Я - фотограф с высшим образованием, 
-    родившийся и проживающий в городе Москве. С самого детства я увлекаюсь 
-    фотографией и компьютерными играми, находя в этих занятиях вдохновение 
-    для моего творчества. Моя страсть и стремление - запечатлеть красоту 
-    окружающего мира, поделиться его гармонией и неповторимостью. В 
-    работе я учитываю все пожелания заказчика, предлагаю индивидуальный подход 
-    и творческий взгляд на каждую задачу. Буду рад сотрудничеству и уверен, 
-    что мы сможем реализовать самые смелые идеи и проекты.`,
+    description: `Я фотограф и видеограф со стажем более 10 лет. 
+    Получил профильное образование в Институте Телевидения и 
+    Радиовещания Останкино и выбрал в качестве основной специализации 
+    съёмку недвижимости и предметов архитектуры. Я всегда настроен на 
+    идеальный результат, нахожу креативные и верные решения для вас, 
+    используя свои знания и профессиональное оборудование! Работать 
+    со мной легко и приятно, многие клиенты выбирают меня для долгосрочного сотрудничества.`,
     photo: aboutMePhoto,
-    navBarTitle: "Подписывайтесь на меня в соцсетях!",
+    navBarTitle: "Со мной можно можно связаться через:",
     navBar: [
+      {
+        title: "Телефон",
+        icon: phoneIcon,
+        link: "tel: +79096695149"
+      },
       {
         title: "телеграмм",
         icon: telegramIcon,
@@ -119,13 +124,13 @@ export const constants = {
     ],
   },
   videoPortfolio: {
-    sectionTitle: "Видео",
+    sectionTitle: "Видеосъёмка",
     sectionSubtitle: "Мои работы по видеосъемке",
     linkOnMyYouTube: "https://www.youtube.com/watch?v=K7XHy8nppf4",
     textOnYouTubeLink: "Больше моих работ →",
   },
   photoPortfolio: {
-    sectionTitle: "Фото",
+    sectionTitle: "Фотосъёмка",
     sectionSubtitle: "Мои работы по фотосъемке",
     firstColumnTitle: "Дома",
     secondColumnTitle: "Квартиры",
@@ -155,7 +160,7 @@ export const constants = {
   },
   cooperation: {
     sectionTitle: "Клиенты",
-    sectionSubtitle: "Среди моих клиентов:",
+    sectionSubtitle: "Со мной сотрудничают:",
     companies: [
       {
         title: "Мастера Ремонта",

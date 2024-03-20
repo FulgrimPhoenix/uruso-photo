@@ -2,10 +2,3 @@
   height: 60px;
   width: 60px;
 }
-
-@media screen and (max-width: 600px) {
-  .about-me__item-icon{
-    height: 40px;
-    width: 40px;
-  } 
-}

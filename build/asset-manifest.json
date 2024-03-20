@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.552abbac.css",
-    "main.js": "/static/js/main.fa6b626c.js",
+    "main.css": "/static/css/main.d60c6045.css",
+    "main.js": "/static/js/main.55b98db6.js",
     "static/js/453.5224ba29.chunk.js": "/static/js/453.5224ba29.chunk.js",
     "static/media/7.jpg": "/static/media/7.ac352e90bc00760f1044.jpg",
     "static/media/1.jpg": "/static/media/1.831cb7984521e5f1320d.jpg",
@@ -33,6 +33,7 @@
     "static/media/RedHatDisplay-Medium.ttf": "/static/media/RedHatDisplay-Medium.48b89f9687f469f162ca.ttf",
     "static/media/RedHatDisplay-Regular.ttf": "/static/media/RedHatDisplay-Regular.389afc586c9dc42f11d2.ttf",
     "static/media/photoIcon.svg": "/static/media/photoIcon.0604a04dcf5465bd74f4a857989b4bf3.svg",
+    "static/media/PhoneIcon.png": "/static/media/PhoneIcon.fe07add606987a89ce59.png",
     "static/media/myPhoto.jpg": "/static/media/myPhoto.75c7b467c65b5280f432.jpg",
     "static/media/reviewIcon.svg": "/static/media/reviewIcon.037c7794110c2ea73347863936090dc2.svg",
     "static/media/RemontKvart.svg": "/static/media/RemontKvart.a3dcb81ac4910af5c534f309b8ba331a.svg",
@@ -43,12 +44,12 @@
     "index.html": "/index.html",
     "static/media/popup__exit_black.svg": "/static/media/popup__exit_black.35e0274f7cdd1cf4390f987493b0efee.svg",
     "static/media/popup__exit.svg": "/static/media/popup__exit.039f1f5203f653b4bacde5e34ee2810b.svg",
-    "main.552abbac.css.map": "/static/css/main.552abbac.css.map",
-    "main.fa6b626c.js.map": "/static/js/main.fa6b626c.js.map",
+    "main.d60c6045.css.map": "/static/css/main.d60c6045.css.map",
+    "main.55b98db6.js.map": "/static/js/main.55b98db6.js.map",
     "453.5224ba29.chunk.js.map": "/static/js/453.5224ba29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.552abbac.css",
-    "static/js/main.fa6b626c.js"
+    "static/css/main.d60c6045.css",
+    "static/js/main.55b98db6.js"
   ]
 }

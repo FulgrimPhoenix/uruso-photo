@@ -6,7 +6,7 @@
   margin: auto 0 auto auto;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1028px) {
   .about-me__photo-cell{
     margin: 0 auto 40px;
   }
