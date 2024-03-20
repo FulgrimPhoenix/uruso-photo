@@ -4,7 +4,10 @@
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0%;
-  text-align: center;
+  text-align: left;
+  color: #fff;
+  text-shadow: 0 0 7px rgb(134, 67, 220);
+  margin: 15px 0 0;
 }
 
 @media screen and (max-width: 600px) {

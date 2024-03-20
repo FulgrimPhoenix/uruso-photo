@@ -144,17 +144,24 @@ export const constants = {
     reviews: reviews
   },
   footer: {
-    title: "Следите за мной в социальных сетях!",
+    title: "UrusoFoto",
+    menuTitle: "Контакты",
+    author: "© Иванюшин Илья",
     navBar: [
       {
-        title: "телеграмм",
+        title: "Телеграмм",
         icon: footerTelegramIcon,
         link: "https://t.me/uruso",
       },
       {
-        title: "вконтакте",
+        title: "Вконтакте",
         icon: footerVkIcon,
         link: "https://vk.com/urusof",
+      },
+      {
+        title: "+79096695149",
+        icon: footerTelegramIcon,
+        link: "",
       },
     ],
   },

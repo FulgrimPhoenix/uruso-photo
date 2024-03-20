@@ -1,6 +1,6 @@
 .photoPortfolio {
-  padding: 0 165px 0px;
-  margin: 0 auto;
+  padding: 0 65px;
+  margin: 50px 100px 0;
   background: radial-gradient(
     at 50% 50%,
     rgba(134, 67, 220, 0.1),
@@ -8,23 +8,27 @@
     rgba(255, 137, 204, 0.2) 40%,
     rgba(255, 255, 255) 50%
   );
+  background: rgba(247, 129, 196, .2);
 }
 
 @media screen and (max-width: 1280px) {
   .photoPortfolio{
-    padding: 0 85px;
+    padding: 0 65px 30px;
+    margin: 50px 20px 0;
   }
 }
 
 @media screen and (max-width: 600px) {
   .photoPortfolio{
     min-height: 378px;
-    padding: 0 15px;
+    padding: 0 15px 20px;
+    margin: 0;
     background: linear-gradient(
     #fff,
     rgba(134, 67, 220, 0.3) 30%,
     rgba(255, 255, 255) 80%
   );
+  background: rgba(247, 129, 196, .2);
   }
 }
 

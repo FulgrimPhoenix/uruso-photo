@@ -1,0 +1,10 @@
+.footer__link-text {
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: auto 0 auto 10px;
+  max-height: 24px;
+  color: black;
+  display: block;
+  transition: .2s;
+}

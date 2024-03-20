@@ -1,9 +1,7 @@
 .footer__menu-item{
   padding: 0;
   list-style: none;
-  margin-right: 50px ;
+  margin: 0 0 10px auto;
+  max-height: 30px;
 }
 
-.footer__menu-item:last-child{
-  margin-right: 0;
-}

@@ -1,11 +1,12 @@
 .footer__item-link{
-  height: 60px;
-  width: 60px;
-  display: block;
+  height: 30px;
+  width: 130px;
+  display: flex;
   transition: .2s linear;
+  text-decoration: none;
+
 }
 
-.footer__item-link:hover{
-  transform: scale(1.1);
-  opacity: .8;
+.footer__item-link:hover .footer__link-text{
+  color: rgb(134, 67, 220);
 }

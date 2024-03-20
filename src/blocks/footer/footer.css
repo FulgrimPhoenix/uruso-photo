@@ -1,8 +1,12 @@
 .footer {
-  margin: 0 auto 50px;
+  margin: 0 auto;
   padding: 0 165px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  width: 100%;
+  box-sizing: border-box;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 100px);
+  background: rgba(247, 129, 196, .2);
 }
 
 @media screen and (max-width: 600px) {
