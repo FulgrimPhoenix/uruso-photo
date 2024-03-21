@@ -1,0 +1,9 @@
+.services__cell_visible{
+  opacity: 1;
+  animation: 1.5s forwards showSubBlock;
+}
+
+.services__cell_invisible{
+  opacity: 0;
+  animation: 1.5s forwards hide;
+}

@@ -8,7 +8,10 @@
     rgba(255, 137, 204, 0.2) 40%,
     rgba(255, 255, 255) 50%
   );
-  background: rgba(247, 129, 196, .2);
+  background: linear-gradient(
+    rgba(247, 129, 196, .2),
+    #fff
+  );
 }
 
 @media screen and (max-width: 1280px) {

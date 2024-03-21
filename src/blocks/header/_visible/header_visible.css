@@ -1,0 +1,9 @@
+.header_visible{
+  opacity: 1;
+  animation: 1s forwards show;
+}
+
+.header_invisible{
+  opacity: 0;
+  animation: 1s forwards hide;
+}

@@ -3,6 +3,7 @@ import { useWindowSize } from "../hooks/useWindowSize";
 import { constants } from "../utils/constants";
 import leftVideo from "../images/videoPreview/left.png";
 import rightVideo from "../images/videoPreview/right.png";
+import { useInView } from "react-intersection-observer";
 
 export function VideoPortfolio() {
   const windowSize = useWindowSize();
@@ -14,6 +15,9 @@ export function VideoPortfolio() {
   const [videoWindowHeight, setVideoWindowHeight] = useState(
     getVideoHeight(windowSize)
   );
+  const { ref, inView, entry } = useInView({
+    threshold: 0,
+  });
 
   useEffect(() => {
     setVideoWindowWidth(getVideoWidth(windowSize));
@@ -63,7 +67,7 @@ export function VideoPortfolio() {
       >
         {constants.videoPortfolio.textOnYouTubeLink}
       </a>
-      <div className="videoPortfolio__container">
+      <div ref={ref} className={`videoPortfolio__container ${inView ? "videoPortfolio__container_visible" : ""}`}>
         {isLeftVideoActive ? (
           <iframe
             style={{
@@ -73,7 +77,7 @@ export function VideoPortfolio() {
             }}
             width={videoWindowWidth}
             height={videoWindowHeight}
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=5dIOMcCyBoSwaMRo"
+            src={constants.videoPortfolio.firstVideo}
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -83,17 +87,23 @@ export function VideoPortfolio() {
             Видео
           </iframe>
         ) : (
-          <img
+          <div
             style={{
               display: "block",
               margin: "auto",
               width: videoWindowWidth,
               height: videoWindowHeight,
+              boxShadow: "0 0 15px #8643DC",
+              cursor: "pointer",
             }}
-            src={leftVideo}
-            alt="Видео из портфолио"
-            onClick={() => setIsLeftVideoActive(true)}
-          />
+          >
+            <img
+              style={{ width: "100%", height: "100%" }}
+              src={leftVideo}
+              alt="Видео из портфолио"
+              onClick={() => setIsLeftVideoActive(true)}
+            />
+          </div>
         )}
         {isRightVideoActive ? (
           <iframe
@@ -104,7 +114,7 @@ export function VideoPortfolio() {
             }}
             width={videoWindowWidth}
             height={videoWindowHeight}
-            src="https://www.youtube.com/embed/hvL1339luv0?si=0cZVONUsmdgS-iub"
+            src={constants.videoPortfolio.secondVideo}
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -112,17 +122,23 @@ export function VideoPortfolio() {
             allowFullScreen
           ></iframe>
         ) : (
-          <img
+          <div
             style={{
               display: "block",
               margin: "auto",
               width: videoWindowWidth,
               height: videoWindowHeight,
+              boxShadow: "0 0 15px #8643DC",
+              cursor: "pointer",
             }}
-            src={rightVideo}
-            alt="Видео из портфолио"
-            onClick={() => setIsRightVideoActive(true)}
-          />
+          >
+            <img
+              style={{ width: "100%", height: "100%" }}
+              src={rightVideo}
+              alt="Видео из портфолио"
+              onClick={() => setIsRightVideoActive(true)}
+            />
+          </div>
         )}
       </div>
     </section>

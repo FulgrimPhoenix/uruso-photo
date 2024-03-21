@@ -18,9 +18,12 @@ export function PhotoPortfolio({ activeColumn, activateColumn, togglePopup,setCu
       } else if (activeColumn === 2) {
         setPhotoList(constants.photoPortfolio.photos.apartments);
         setCurrentPhotoList(constants.photoPortfolio.photos.apartments);
-      } else {
-        setPhotoList(constants.photoPortfolio.photos.my);
-        setCurrentPhotoList(constants.photoPortfolio.photos.my);
+      } else if (activeColumn === 3){
+        setPhotoList(constants.photoPortfolio.photos.people);
+        setCurrentPhotoList(constants.photoPortfolio.photos.people);
+      }else if (activeColumn === 4){
+        setPhotoList(constants.photoPortfolio.photos.various);
+        setCurrentPhotoList(constants.photoPortfolio.photos.various);
       }
       setAnimationPlaying(true);
     }, 150);
@@ -50,6 +53,12 @@ export function PhotoPortfolio({ activeColumn, activateColumn, togglePopup,setCu
           activeColumn={activeColumn}
           activateColumn={activateColumn}
           columnNumber={3}
+        />
+        <PhotoPortfolioNavButton
+          title={constants.photoPortfolio.fourthColumnTitle}
+          activeColumn={activeColumn}
+          activateColumn={activateColumn}
+          columnNumber={4}
         />
       </nav>
       <PhotoPortfolioPhotoGrid

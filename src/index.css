@@ -6,6 +6,7 @@
 @import url(./blocks/animations/appearance.css);
 @import url(./blocks/animations/disappearance.css);
 @import url(./blocks/animations/swing.css);
+@import url(./blocks/animations/visibllity.css);
 
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/__logo/header__logo.css);
@@ -18,12 +19,14 @@
 @import url(./blocks/header/__telephone-cell/header__telephone-cell.css);
 @import url(./blocks/header/__telephone-icon/header__telephone-icon.css);
 @import url(./blocks/header/__telephone-cell/_small/header__telephone-cell_small.css);
+@import url(./blocks/header/_visible/header_visible.css);
 
 @import url(./blocks/intro/intro.css);
 @import url(./blocks/intro/__title/intro__title.css);
 @import url(./blocks/intro/__subtitle/intro__subtitle.css);
 @import url(./blocks/intro/__title_accect/intro__title_accent.css);
 @import url(./blocks/intro/__button/intro__button.css);
+@import url(./blocks/intro/_visible/intro_visible.css);
 
 @import url(./blocks/services/services.css);
 @import url(./blocks/services/__cell/services__cell.css);
@@ -32,6 +35,7 @@
 @import url(./blocks/services/__cell-header/services__cell-header.css);
 @import url(./blocks/services/__description/services__description.css);
 @import url(./blocks/services/__cell-description/services__cell-description.css);
+@import url(./blocks/services/__cell/_visible/services__cell_visible.css);
 
 @import url(./blocks/about-me/about-me.css);
 @import url(./blocks/about-me/__cells/about-me__cells.css);
@@ -46,12 +50,16 @@
 @import url(./blocks/about-me/__menu-item/about-me__menu-item.css);
 @import url(./blocks/about-me/__item-link/about-me__item-link.css);
 @import url(./blocks/about-me/__item-icon/about-me__item-icon.css);
+@import url(./blocks/about-me/__text-cells/_visible/about-me__text-cells_visible.css);
+@import url(./blocks/about-me/__photo-cell/_visible/about-me__photo-cell_visible.css);
+@import url(./blocks/about-me/__menu/_visible/about-me__menu_visible.css);
 
 @import url(./blocks/videoPortfolio/videoPortfolio.css);
 @import url(./blocks/videoPortfolio/__container/videoPortfolio__container.css);
 @import url(./blocks/videoPortfolio/__link/videoPortfolio__link.css);
 @import url(./blocks/videoPortfolio/__title-cell/videoPortfolio__title-cell.css);
 @import url(./blocks/videoPortfolio/__video/videoPortfolio___video.css);
+@import url(./blocks/videoPortfolio/__container/_visible/videoPortfolio__container_visible.css);
 
 @import url(./blocks/photoPortfolio/photoPortfolio.css);
 @import url(./blocks/photoPortfolio/__menu/photoPortfolio__menu.css);
@@ -79,6 +87,7 @@
 @import url(./blocks/footer/__menu-title/footer__menu-title.css);
 @import url(./blocks/footer/__author/footer__author.css);
 @import url(./blocks/footer/__link-text/footer__link-text.css);
+@import url(./blocks/footer/__menu-cell/footer__menu-cell.css);
 
 @import url(./blocks/cooperation/cooperation.css);
 @import url(./blocks/cooperation/__item-cell/cooperation__item-cell.css);

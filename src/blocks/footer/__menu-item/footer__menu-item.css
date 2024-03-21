@@ -5,3 +5,16 @@
   max-height: 30px;
 }
 
+.footer__menu-item:last-child{
+  pointer-events: none;
+  cursor: default;
+}
+
+
+@media screen and (max-width: 600px) {
+  .footer__menu-item{
+    max-height: 40px;
+    height: 40px;
+    margin: 0 0 20px auto;
+  }
+}

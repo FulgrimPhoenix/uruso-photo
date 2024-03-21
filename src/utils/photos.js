@@ -37,6 +37,19 @@ import ppp10 from "../images/photos/3column/10.jpg";
 import ppp11 from "../images/photos/3column/11.jpg";
 import ppp12 from "../images/photos/3column/12.jpg";
 
+import pppp1 from "../images/photos/4column/1.jpg";
+import pppp2 from "../images/photos/4column/2.jpg";
+import pppp3 from "../images/photos/4column/3.jpg";
+import pppp4 from "../images/photos/4column/4.jpg";
+import pppp5 from "../images/photos/4column/5.jpg";
+import pppp6 from "../images/photos/4column/6.jpg";
+import pppp7 from "../images/photos/4column/7.jpg";
+import pppp8 from "../images/photos/4column/8.jpg";
+import pppp9 from "../images/photos/4column/9.jpg";
+import pppp10 from "../images/photos/4column/10.jpg";
+import pppp11 from "../images/photos/4column/11.jpg";
+import pppp12 from "../images/photos/4column/12.jpg";
+
 export const photos = {
   land: [
     { id: 0, link: p1 },
@@ -66,7 +79,7 @@ export const photos = {
     { id: 10, link: pp11 },
     { id: 11, link: pp12 },
   ],
-  my: [
+  people: [
     { id: 0, link: ppp1 },
     { id: 1, link: ppp2 },
     { id: 2, link: ppp3 },
@@ -79,5 +92,19 @@ export const photos = {
     { id: 9, link: ppp10 },
     { id: 10, link: ppp11 },
     { id: 11, link: ppp12 },
+  ],
+  various: [
+    { id: 0, link: pppp1 },
+    { id: 1, link: pppp2 },
+    { id: 2, link: pppp3 },
+    { id: 3, link: pppp4 },
+    { id: 4, link: pppp5 },
+    { id: 5, link: pppp6 },
+    { id: 6, link: pppp7 },
+    { id: 7, link: pppp8 },
+    { id: 8, link: pppp9 },
+    { id: 9, link: pppp10 },
+    { id: 10, link: pppp11 },
+    { id: 11, link: pppp12 },
   ],
 };

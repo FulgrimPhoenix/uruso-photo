@@ -1,0 +1,11 @@
+.footer__menu-cell{
+  grid-column: 2 / 3;
+  grid-row: 0 / 2;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__menu-cell{
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+  }
+}

@@ -2,10 +2,14 @@ import { useState } from "react";
 import { useWindowSize } from "../hooks/useWindowSize";
 import { constants } from "../utils/constants";
 import { MenuPopup } from "./MenuPopup";
+import { useInView } from "react-intersection-observer";
 
 export function Header() {
   const windowWidth = useWindowSize();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { ref, inView, entry } = useInView({
+    threshold: 0,
+  });
 
   function handleMenu(value) {
     setIsMenuOpen(value);
@@ -13,7 +17,7 @@ export function Header() {
 
   return (
     <>
-      <div className="header">
+      <div ref={ref} className={`header ${inView ? "header_visible" : "header_invisible"}`}>
         <img
           className="header__logo"
           src={constants.header.logo}
@@ -32,7 +36,7 @@ export function Header() {
                   src={constants.header.phoneIcon}
                   alt="иконка телефона"
                 />{" "}
-                +79096695149
+                {constants.header.phoneNumber}
               </a>
               <button
                 className="header__menu-button"
@@ -71,7 +75,7 @@ export function Header() {
                     src={constants.header.phoneIcon}
                     alt="иконка телефона"
                   />{" "}
-                  +79096695149
+                  {constants.header.phoneNumber}
                 </a>
               ) : (
                 <span className="header__telephone-cell">
@@ -80,7 +84,7 @@ export function Header() {
                     src={constants.header.phoneIcon}
                     alt="иконка телефона"
                   />{" "}
-                  +79096695149
+                  {constants.header.phoneNumber}
                 </span>
               )}
             </>
@@ -114,7 +118,7 @@ export function Header() {
               src={constants.header.phoneIcon}
               alt="иконка телефона"
             />{" "}
-            +79096695149
+            {constants.header.phoneNumber}
           </a>
         </MenuPopup>
       ) : (

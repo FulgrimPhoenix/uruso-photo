@@ -4,5 +4,11 @@
   justify-content: center;
   padding: 0;
   margin: 20px 0 0 auto;
-  width: 200px;
+  width: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__menu{
+   margin: 25px auto 0 0;
+  }
 }

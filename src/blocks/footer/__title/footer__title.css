@@ -5,14 +5,14 @@
   line-height: 48px;
   letter-spacing: 0%;
   text-align: left;
-  color: #fff;
-  text-shadow: 0 0 7px rgb(134, 67, 220);
+  color: #000;
   margin: 15px 0 0;
 }
 
 @media screen and (max-width: 600px) {
   .footer__title{
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
   }
 }

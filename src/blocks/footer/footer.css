@@ -6,11 +6,19 @@
   box-sizing: border-box;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 100px);
-  background: rgba(247, 129, 196, .2);
+  background: linear-gradient(#fff 20%, rgba(247, 129, 196, 0.2));
+}
+
+@media screen and (max-width: 1028px) {
+  .footer {
+    padding: 0 85px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-  .footer{
+  .footer {
     padding: 0 15px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
   }
 }

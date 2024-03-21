@@ -1,0 +1,4 @@
+.videoPortfolio__container_visible{
+  opacity: 1;
+  animation: 1.5s forwards show;
+}

@@ -1,17 +1,27 @@
 import logo from "../images/icons/logo.svg";
 import menuIcon from "../images/icons/menuNavBarIcon.svg";
 import menuExitButton from "../images/popup/popup__exit_black.svg"
+
 import photoIcon from "../images/icons/photoIcon.svg";
+import videoIcon from "../images/icons/VideoIcon.svg";
+import videoMontageIcon from "../images/icons/VideoMontageIcon.svg";
 import vkIcon from "../images/icons/vkIcon.png";
 import telegramIcon from "../images/icons/telegaIcon.png";
 import phoneIcon from "../images/icons/PhoneIcon.png";
 import headerPhoneIcon from "../images/icons/headerPhoneIcon.png"
+
+import footerTelegramIcon from "../images/icons/footerTelegramIcon.svg"
+import footerVkIcon from "../images/icons/footerVkIcon.svg";
+import footerPhoneIcon from "../images/icons/footerPhoneIcon.svg"
+
 import aboutMePhoto from "../images/photos/myPhoto.jpg";
 import reviewIcon from "../images/icons/reviewIcon.svg";
-import footerTelegramIcon from "../images/icons/footerTelegramIcon.svg"
-import footerVkIcon from "../images/icons/footerVkIcon.svg"
+
 import { photos } from "./photos";
 import { reviews } from "./reviews";
+
+import fisrtPreview from "../images/videoPreview/left.png";
+import secondPreview from "../images/videoPreview/right.png";
 
 import mastera from "../images/CompaniesLogos/MasteraRemonta.svg";
 import larson from "../images/CompaniesLogos/Larson.svg";
@@ -27,6 +37,7 @@ export const constants = {
     logo: logo,
     menuIcon: menuIcon,
     menuExitButton: menuExitButton,
+    phoneNumber: "+79096695149",
     phoneIcon: headerPhoneIcon,
     phoneLink: "tel: +79096695149",
     pageNavLinks: [
@@ -76,14 +87,14 @@ export const constants = {
         оборудования. Ретушь, цветокоррекция и исправление геометрии объектов.`,
       },
       {
-        img: photoIcon,
+        img: videoMontageIcon,
         title: "Монтаж",
         description: `Создание профессионального видео-контента из вашего материала. 
         Монтаж корпоративных фильмов, таймлапсов, интро, анимированных логотипов и другое. 
         Сведение, динамические спецэффекты и ретушь видеоматериала.`,
       },
       {
-        img: photoIcon,
+        img: videoIcon,
         title: "Видеосъёмка",
         description: `Видеосъёмка объектов недвижимости под ключ - от задумки до 
         реализации. Создание интерьерных роликов, обзоров, видео-отзывов и рекламного 
@@ -126,15 +137,20 @@ export const constants = {
   videoPortfolio: {
     sectionTitle: "Видеосъёмка",
     sectionSubtitle: "Мои работы по видеосъемке",
-    linkOnMyYouTube: "https://www.youtube.com/watch?v=K7XHy8nppf4",
+    linkOnMyYouTube: "https://www.youtube.com/playlist?list=PLLCp4twAAQZgsVN_FnpConSfu4puQhRqL",
     textOnYouTubeLink: "Больше моих работ →",
+    firstVideo: "https://www.youtube.com/embed/uO-GqBzkJvw?si=hU5C2jqfIv_uABcM",
+    fisrtPreview: fisrtPreview,
+    secondVideo: "https://www.youtube.com/embed/Ly-9Ati0LOM?si=z_VCF6EoMm3SMIQ4",
+    secondPreview: secondPreview,
   },
   photoPortfolio: {
     sectionTitle: "Фотосъёмка",
     sectionSubtitle: "Мои работы по фотосъемке",
     firstColumnTitle: "Дома",
     secondColumnTitle: "Квартиры",
-    thirdColumnTitle: "Моё",
+    thirdColumnTitle: "Люди",
+    fourthColumnTitle: "Разное",
     photos: photos,
   },
   testimonials: {
@@ -160,7 +176,7 @@ export const constants = {
       },
       {
         title: "+79096695149",
-        icon: footerTelegramIcon,
+        icon: footerPhoneIcon,
         link: "",
       },
     ],

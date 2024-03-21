@@ -1,0 +1,4 @@
+.about-me__menu_visible{
+  opacity: 1;
+  animation: 1s forwards show;
+}
