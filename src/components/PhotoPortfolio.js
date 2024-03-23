@@ -2,12 +2,14 @@ import { useEffect, useState } from "react";
 import { constants } from "../utils/constants";
 import { PhotoPortfolioNavButton } from "./PhotoPortfolioNavButton";
 import { PhotoPortfolioPhotoGrid } from "./PhotoPortfolioPhotoGrid";
+import { useWindowSize } from "../hooks/useWindowSize";
 
 export function PhotoPortfolio({ activeColumn, activateColumn, togglePopup,setCurrentPhotoList }) {
   const [photoList, setPhotoList] = useState(
     constants.photoPortfolio.photos.land
   );
   const [animationPlaying, setAnimationPlaying] = useState(true);
+  const windowWidth = useWindowSize();
 
   useEffect(() => {
     setAnimationPlaying(false);
@@ -26,7 +28,7 @@ export function PhotoPortfolio({ activeColumn, activateColumn, togglePopup,setCu
         setCurrentPhotoList(constants.photoPortfolio.photos.various);
       }
       setAnimationPlaying(true);
-    }, 150);
+    }, windowWidth <= 600 ? 50 : 500);
   }, [activeColumn]);
 
   return (

@@ -11,6 +11,7 @@ import {
   Mousewheel,
   Keyboard,
 } from "swiper/modules";
+import { useInView } from "react-intersection-observer";
 
 export function PhotoPortfolioPhotoGrid({
   animationPlaying,
@@ -18,11 +19,15 @@ export function PhotoPortfolioPhotoGrid({
   togglePopup,
 }) {
   const windowWidth = useWindowSize();
+  const { ref, inView, entry } = useInView({
+    threshold: 0,
+  });
 
   return (
     <ul
-      className={`photoPortfolio__list-items  ${
-        animationPlaying ? "appearance" : "disappearance"
+      ref={ref}
+      className={`photoPortfolio__list-items ${
+        animationPlaying && inView ? "appearance" : "disappearance"
       }`}
     >
       {windowWidth <= 600 ? (

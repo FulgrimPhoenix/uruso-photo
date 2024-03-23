@@ -9,7 +9,7 @@
 
 @keyframes show {
   from {
-    transform: translate(0, 20px);
+    transform: translate(0, 40px);
     opacity: 0;
   }
 

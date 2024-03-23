@@ -10,9 +10,14 @@ import {
   Mousewheel,
   Keyboard,
 } from "swiper/modules";
+import { useInView } from "react-intersection-observer";
 
 export function Cooperation() {
   const windowWidth = useWindowSize();
+  const { ref, inView, entry } = useInView({
+    threshold: 0,
+    rootMargin: "0px",
+  });
 
   return windowWidth < 600 ? (
     <section id="cooperation" className="cooperation">
@@ -20,7 +25,7 @@ export function Cooperation() {
       <h3 className="section-subtitle">
         {constants.cooperation.sectionSubtitle}
       </h3>
-      <ul className="cooperation__menu">
+      <ul ref={ref} className={`cooperation__menu ${inView ? "cooperation__menu_visible" : ""}`}>
         <Swiper
           modules={[
             Mousewheel,
@@ -76,7 +81,7 @@ export function Cooperation() {
       <h3 className="section-subtitle">
         {constants.cooperation.sectionSubtitle}
       </h3>
-      <ul className="cooperation__menu">
+      <ul ref={ref} className={`cooperation__menu ${inView ? "cooperation__menu_visible" : ""}`}>
         {constants.cooperation.companies.map((company) => {
           return (
             <li

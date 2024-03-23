@@ -1,14 +1,16 @@
 .disappearance{
-  animation: .15s forwards disappearance;
+  animation: .3s forwards disappearance;
+  opacity: 1;
 }
 
 @keyframes disappearance {
   from {
+    transform: translate(0px, 0px);
     opacity: 1;
   }
 
   to {
-    margin-top: 80px;
+    transform: translate(0px, 80px);
     opacity: 0;
   }
 }
@@ -16,11 +18,12 @@
 @media screen and (max-width: 600px) {
   @keyframes disappearance {
     from {
+      transform: translate(0px, 0px);
       opacity: 1;
     }
   
     to {
-      margin-top: 40px;
+      transform: translate(0px, 40px);
       opacity: 0;
     }
   }

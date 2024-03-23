@@ -68,6 +68,7 @@
 @import url(./blocks/photoPortfolio/__list-items/photoPortfolio__list-items.css);
 @import url(./blocks/photoPortfolio/__list-item/photoPortfolio__list-item.css);
 @import url(./blocks/photoPortfolio/__item-photo/photoPortfolio__item-photo.css);
+@import url(./blocks/photoPortfolio/__menu-item/_visibilty/photoPortfolio__menu-item_visibility.css);
 
 @import url(./blocks/testimonials/testimonials.css);
 @import url(./blocks/testimonials/__cells/testimonials__cells.css);
@@ -77,6 +78,7 @@
 @import url(./blocks/testimonials/__cell-photo/testimonials__cell-photo.css);
 @import url(./blocks/testimonials/__cell-client-name/testimonials__cell-client-name.css);
 @import url(./blocks/testimonials/__post/testimonials__post.css);
+@import url(./blocks/testimonials/__cells/_visibility/testimonials__cells_visibility.css);
 
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__item-icon/footer__item-icon.css);
@@ -96,6 +98,7 @@
 @import url(./blocks/cooperation/__menu/cooperation__menu.css);
 @import url(./blocks/cooperation/__item-title/cooperation__item-title.css);
 @import url(./blocks/cooperation/__item-overlay/cooperation__item-overlay.css);
+@import url(./blocks/cooperation/__menu/_visibility/cooperation__menu_visibility.css);
 
 @import url(./blocks/popup/__container/popup__container.css);
 @import url(./blocks/popup/__exit-button/popup__exit-button.css);

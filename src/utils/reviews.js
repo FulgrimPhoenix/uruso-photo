@@ -1,13 +1,14 @@
-import IvanPhoto from "../images/clients-photos/Ivan.PNG";
-import NastiaPhoto from "../images/clients-photos/Nastia.PNG";
-import VolodiaPhoto from "../images/clients-photos/Volodia.PNG";
-import Akaki from "../images/clients-photos/Akaki.PNG";
-import Evpati from "../images/clients-photos/Evpati.PNG"
+import firstPhoto from "../images/clients-photos/1.PNG";
+import secondPhoto from "../images/clients-photos/2.PNG";
+import thirdPhoto from "../images/clients-photos/3.PNG";
+import fourthPhoto from "../images/clients-photos/4.PNG";
+import fifthPhoto from "../images/clients-photos/5.PNG";
+import sixthPhoto from "../images/clients-photos/6.PNG";
 
 export const reviews = [
   {
     name: "Алексей",
-    photo: Akaki,
+    photo: firstPhoto,
     post: 'Ведущий специалист по Digital и рекламе',
     review: `Работал с Андреем неоднократно, ни разу не дал повода 
     усомниться в своих профессиональных и человеческих качествах. 
@@ -21,7 +22,7 @@ export const reviews = [
   },
   {
     name: "Артём Лодвиг",
-    photo: IvanPhoto,
+    photo: secondPhoto,
     post: 'Генеральный директор компании "Мастера Ремонта"',
     review: `Андрей, спасибо большое за видео)
 
@@ -32,7 +33,7 @@ export const reviews = [
   },
   {
     name: "Анастасия Давиденко",
-    photo: NastiaPhoto,
+    photo: thirdPhoto,
     post: 'Ведущий дизайнер студии "Адельхейд"',
     review: `Андрей, спасибо большое за видео! Все как всегда 
     оперативно и качественно. Пару правок буквально и можно 
@@ -42,7 +43,7 @@ export const reviews = [
   },
   {
     name: "Андрей",
-    photo: VolodiaPhoto,
+    photo: fourthPhoto,
     post: 'Руководитель "Simtu"',
     review: `Всем привет! Знаю Андрея уже 5,5 лет! Раньше он работал в 
     нашей группе компании видеографом, 1,5 года назад стал аутсорсером. 
@@ -52,12 +53,27 @@ export const reviews = [
   },
   {
     name: "Александр Безносенко",
-    photo: Evpati,
+    photo: fifthPhoto,
     post: 'Основатель компании "Заборы 2.0"',
     review: `В прошлом году запускал сайт, нужен был контент, 
     обратился к Андрею. Снимали на каждом объекте видео отзыв + 
     фотографии + обязательно с коптера. До этого я никогда не 
     снимался, но получилось все очень круто, большое спасибо, 
     будем работать дальше.`,
+  },
+  {
+    name: "Сергей Петров",
+    photo: sixthPhoto,
+    post: 'Генеральный директор компании "РемонтКварт"',
+    review: ` С Андреем У. сотрудничаем с 2017 года, 
+    вместе росли, развивались  в творческом направлении. 
+    Отснято более 50 объектов, порядка 1500 фотоматериала 
+    сделанных ремонтов.  Творческий подход, подскажет и 
+    поможет, где как лучше, какие то новые идеи. Важный 
+    момент - сдержанный,  пунктуален, исполнительный, 
+    креативный. На данный момент снимаем отзывы, 
+    обзоры  с заказчиками, "фоткаем" выполнение работ,  
+    по советовал в свое время партнерам, знаю сейчас с 
+    ним работают. Так держать!!`,
   },
 ]

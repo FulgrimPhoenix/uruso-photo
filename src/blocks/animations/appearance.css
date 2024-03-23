@@ -1,15 +1,16 @@
 .appearance{
-  animation: .15s forwards appearance;
+  animation: .3s forwards appearance;
   opacity: 1;
 }
 
 @keyframes appearance {
   from {
-    margin-top: 80px;
+    transform: translate(0px, 60px);
     opacity: 0;
   }
 
   to {
+    transform: translate(0px, 0px);
     opacity: 1;
   }
 }
@@ -17,11 +18,12 @@
 @media screen and (max-width: 600px) {
   @keyframes appearance {
     from {
-      margin-top: 40px;
+      transform: translate(0px, 40px);
       opacity: 0;
     }
   
     to {
+      transform: translate(0px, 0px);
       opacity: 1;
     }
   }

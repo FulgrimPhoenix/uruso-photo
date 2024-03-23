@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import 'swiper/css/navigation';
+import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
 import {
@@ -8,15 +8,18 @@ import {
   Pagination,
   Navigation,
   Mousewheel,
-  Keyboard
+  Keyboard,
 } from "swiper/modules";
 import { constants } from "../utils/constants";
 import { useWindowSize } from "../hooks/useWindowSize";
-
-// SwiperCore.use([EffectCoverflow, Pagination, Navigation]);
+import { useInView } from "react-intersection-observer";
 
 export function Testimonials() {
   const windowSize = useWindowSize();
+  const { ref, inView, entry } = useInView({
+    threshold: 0,
+    rootMargin: windowSize <= 1028 ? "130px" : "0px",
+  });
 
   return (
     <section id="testimonials" className="testimonials">
@@ -24,9 +27,15 @@ export function Testimonials() {
       <h3 className="section-subtitle">
         {constants.testimonials.sectionSubtitle}
       </h3>
-      <div className="testimonials__cells">
+      <div ref={ref} className={`testimonials__cells ${inView ? "testimonials__cells_visible" : ""}`}>
         <Swiper
-          modules={[Mousewheel, Keyboard, Navigation, Pagination, EffectCoverflow]}
+          modules={[
+            Mousewheel,
+            Keyboard,
+            Navigation,
+            Pagination,
+            EffectCoverflow,
+          ]}
           effect="coverflow"
           speed={800}
           spaceBetween={50}
