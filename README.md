@@ -22,8 +22,10 @@
 2. Запустить "npm install"
 3. Запустить "npm run start"
 
+---
+
 ## **Статус проекта:** произведен релиз
 
-#### Actuality link on website:
+#### Ссылка на актуальную версию проекта:
 
  - [Frontend](https://garazhelka.nomoredomainsmonster.ru/)
