@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 940px) {
   .header__telephone-cell {
-    margin: auto auto 50px auto;
+    margin: auto auto 150px auto;
     padding: 10px;
     font-size: 18px;
     font-weight: 700;

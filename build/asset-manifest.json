@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3352fd5.css",
-    "main.js": "/static/js/main.de889204.js",
+    "main.css": "/static/css/main.b04b3e34.css",
+    "main.js": "/static/js/main.476d6513.js",
     "static/js/453.5224ba29.chunk.js": "/static/js/453.5224ba29.chunk.js",
     "static/media/12.jpg": "/static/media/12.0c4d37004197cf71bb2c.jpg",
     "static/media/4.PNG": "/static/media/4.763d950e219e8e48ff4a.PNG",
@@ -24,19 +24,19 @@
     "static/media/5.PNG": "/static/media/5.a78c694a5338e800b651.PNG",
     "static/media/right.png": "/static/media/right.7e77f7fc351270d2d1cd.png",
     "static/media/2.PNG": "/static/media/2.5b3d9a6c4e283398af07.PNG",
-    "static/media/footerPhoneIcon.svg": "/static/media/footerPhoneIcon.017e9146af1500ba0d03de454daf8987.svg",
-    "static/media/SKN.svg": "/static/media/SKN.13fdcb987b5e6356228c127f79dedffd.svg",
+    "static/media/footerPhoneIcon.svg": "/static/media/footerPhoneIcon.041207017af88bf382e50f60cbfab881.svg",
+    "static/media/SKN.svg": "/static/media/SKN.687a4753f3b171711442723987979708.svg",
     "static/media/telegaIcon.png": "/static/media/telegaIcon.9614f966527a3d686ab4.png",
     "static/media/vkIcon.png": "/static/media/vkIcon.4274241daf132abb2aad.png",
-    "static/media/footerTelegramIcon.svg": "/static/media/footerTelegramIcon.9bb2972ef419693dbb9996490cdefff0.svg",
-    "static/media/VideoMontageIcon.svg": "/static/media/VideoMontageIcon.b739a4ea9b3a0933e9ccb05f76e9c444.svg",
-    "static/media/footerVkIcon.svg": "/static/media/footerVkIcon.fe1a683921080140fe7499465a7aeaf7.svg",
+    "static/media/footerTelegramIcon.svg": "/static/media/footerTelegramIcon.8a5143ad84c25cf223764102ecac75dd.svg",
+    "static/media/VideoMontageIcon.svg": "/static/media/VideoMontageIcon.20730c62fbcff0d2921e152e6d100852.svg",
+    "static/media/footerVkIcon.svg": "/static/media/footerVkIcon.652cef4958e3b33bd8d96f818fc9ea2a.svg",
     "static/media/RedHatDisplay-Black.ttf": "/static/media/RedHatDisplay-Black.765eebea2bf1788e37f8.ttf",
     "static/media/RedHatDisplay-Bold.ttf": "/static/media/RedHatDisplay-Bold.2a83d3f0c94c7575ef97.ttf",
     "static/media/RedHatDisplay-Medium.ttf": "/static/media/RedHatDisplay-Medium.48b89f9687f469f162ca.ttf",
     "static/media/RedHatDisplay-Regular.ttf": "/static/media/RedHatDisplay-Regular.389afc586c9dc42f11d2.ttf",
-    "static/media/VideoIcon.svg": "/static/media/VideoIcon.eba8bf3c370aa5452e19ae7d28adc198.svg",
-    "static/media/photoIcon.svg": "/static/media/photoIcon.8d988f73ea76ce03a242ccaad4fe6f1e.svg",
+    "static/media/VideoIcon.svg": "/static/media/VideoIcon.3590ecc300da59c33df32662cd7098c1.svg",
+    "static/media/photoIcon.svg": "/static/media/photoIcon.06074bb10bc6f513322e84b7f4206325.svg",
     "static/media/myPhoto.jpg": "/static/media/myPhoto.75c7b467c65b5280f432.jpg",
     "static/media/headerPhoneIcon.png": "/static/media/headerPhoneIcon.f9707a011653f828720b.png",
     "static/media/PhoneIcon.png": "/static/media/PhoneIcon.cf584538605e2590d861.png",
@@ -49,12 +49,12 @@
     "static/media/logo.svg": "/static/media/logo.d8d0636529a043208e2119d2f588e662.svg",
     "static/media/popup__exit_black.svg": "/static/media/popup__exit_black.35e0274f7cdd1cf4390f987493b0efee.svg",
     "static/media/popup__exit.svg": "/static/media/popup__exit.039f1f5203f653b4bacde5e34ee2810b.svg",
-    "main.b3352fd5.css.map": "/static/css/main.b3352fd5.css.map",
-    "main.de889204.js.map": "/static/js/main.de889204.js.map",
+    "main.b04b3e34.css.map": "/static/css/main.b04b3e34.css.map",
+    "main.476d6513.js.map": "/static/js/main.476d6513.js.map",
     "453.5224ba29.chunk.js.map": "/static/js/453.5224ba29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3352fd5.css",
-    "static/js/main.de889204.js"
+    "static/css/main.b04b3e34.css",
+    "static/js/main.476d6513.js"
   ]
 }
