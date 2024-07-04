@@ -159,6 +159,10 @@ export const constants = {
     reviewIcon: reviewIcon,
     reviews: reviews
   },
+  feedback: {
+    sectionTitle: "Обратная связь",
+    sectionSubtitle: "Отвечу на ваши вопросы",
+  },
   footer: {
     title: "UrusoFoto",
     menuTitle: "Контакты",

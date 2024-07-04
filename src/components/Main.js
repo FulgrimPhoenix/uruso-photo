@@ -7,6 +7,7 @@ import { VideoPortfolio } from "./VideoPortfolio";
 import { useState } from "react";
 import { Testimonials } from "./Testimonials";
 import { Cooperation } from "./Cooperation";
+import { Feedback } from "./Feedback";
 
 export function Main({ togglePopup, setCurrentPhotoList }) {
   const [whichСolumnIsActive, setWhichСolumnIsActive] = useState(1);
@@ -29,6 +30,7 @@ export function Main({ togglePopup, setCurrentPhotoList }) {
       />
       <Cooperation />
       <Testimonials />
+      <Feedback />
     </main>
   );
 }
