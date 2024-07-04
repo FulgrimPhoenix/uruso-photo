@@ -1,0 +1,18 @@
+.feedback {
+  display: flex;
+  flex-direction: column;
+  padding: 0 165px;
+  margin: 0 auto 100px;
+}
+
+@media screen and (max-width: 1280px) {
+  .feedback {
+    padding: 0 85px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .feedback {
+    padding: 0 15px;
+  }
+}

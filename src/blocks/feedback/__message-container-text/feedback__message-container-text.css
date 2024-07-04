@@ -1,0 +1,14 @@
+.feedback__message-container-text{
+  height: 100%;
+  min-width: 600px;
+  padding: 0;
+  outline: none;
+  border: 1px solid #d2d2d2;
+  margin: 0;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.feedback__message-container-text:focus{
+  outline: #8643dc 2px solid;
+}

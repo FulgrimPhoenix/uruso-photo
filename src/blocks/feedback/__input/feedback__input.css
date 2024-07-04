@@ -1,0 +1,12 @@
+.feedback__input{
+  padding: 0;
+  outline: none;
+  border: 1px solid #d2d2d2;
+  height: 46px;
+  border-radius: 8px;
+  min-width: 300px;
+}
+
+.feedback__input:focus{
+  outline: #8643dc 2px solid;
+}

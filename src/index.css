@@ -80,6 +80,15 @@
 @import url(./blocks/testimonials/__post/testimonials__post.css);
 @import url(./blocks/testimonials/__cells/_visibility/testimonials__cells_visibility.css);
 
+@import url(./blocks/feedback/feedback.css);
+@import url(./blocks/feedback/__form/feedback__form.css);
+@import url(./blocks/feedback/__form-container/feedback__form-container.css);
+@import url(./blocks/feedback/__message-container/feedback__message-container.css);
+@import url(./blocks/feedback/__message-container-title/feedback__message-container-title.css);
+@import url(./blocks/feedback/__message-container-text/feedback__message-container-text.css);
+@import url(./blocks/feedback/__input/feedback__input.css);
+@import url(./blocks/feedback/__submit-button/feedback__submit-button.css);
+
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__item-icon/footer__item-icon.css);
 @import url(./blocks/footer/__item-link/footer__item-link.css);
